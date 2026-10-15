@@ -1,0 +1,970 @@
+[
+  {
+    "email": "cfuentealba@emlenguaje.ucsc.cl",
+    "name": "Catalina Antonia Alejandr Fuentealba Jiménez",
+    "rut": "20993026-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "sgonzalezv@emlenguaje.ucsc.cl",
+    "name": "Saray Elizabeth González Vásquez",
+    "rut": "21382642-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jriquelme@emlenguaje.ucsc.cl",
+    "name": "Javiera Ignacia Riquelme Soto",
+    "rut": "19157593-8",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "rbastias@emlenguaje.ucsc.cl",
+    "name": "Renata Catalina Bastias Pedreros",
+    "rut": "21479293–",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ccontrerasf@emlenguaje.ucsc.cl",
+    "name": "Crhistell Alejandra Contreras Fernández",
+    "rut": "21506657-6",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ddelajara@emlenguaje.ucsc.cl",
+    "name": "Daniela Paz De La Jara Villagran",
+    "rut": "19815620-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "iibanez@emlenguaje.ucsc.cl",
+    "name": "Ilennia Maisa Ibáñez Cid",
+    "rut": "21330746-0",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "vzambrano@emlenguaje.ucsc.cl",
+    "name": "Fernanda Valentina Zambrano González",
+    "rut": "21416059-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "tcrespo@ebasica.ucsc.cl",
+    "name": "Tabita Noemí Crespo Reyes",
+    "rut": "21171127-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jguevara@ebasica.ucsc.cl",
+    "name": "Jazmin Alejandra Guevara Flores",
+    "rut": "20193623-3",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "asolisv@emlenguaje.ucsc.cl",
+    "name": "Aracely Catalina Solís Vásquez",
+    "rut": "20726052-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "tmunoz@embiologia.ucsc.cl",
+    "name": "Tomás Alexis Muñoz Maldonado",
+    "rut": "20162521-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "nmoreno@embiologia.ucsc.cl",
+    "name": "Ninoska Paloma Almendra Moreno Medina",
+    "rut": "20372245-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cmella@embiologia.ucsc.cl",
+    "name": "Catalina Michelle Mella Ovalle",
+    "rut": "21263942-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mvalderas@embiologia.ucsc.cl",
+    "name": "Macarena Fernanda Valderas Ruiz",
+    "rut": "20626267-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "areil@embiologia.ucsc.cl",
+    "name": "Ashley . Reil Ríos",
+    "rut": "18384016-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "iquezada@embiologia.ucsc.cl",
+    "name": "Iván Antonio Quezada Barra",
+    "rut": "20658122-0",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "apena@emlenguaje.ucsc.cl",
+    "name": "Abigail Esther Peña Fernández",
+    "rut": "20868666-6",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "bfritz@emlenguaje.ucsc.cl",
+    "name": "Bastián Alexis Fritz Leal",
+    "rut": "20032803-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ivenegasa@emlenguaje.ucsc.cl",
+    "name": "Isidora Antonia Venegas Artiaga",
+    "rut": "21548702-4",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "sorellana@emlenguaje.ucsc.cl",
+    "name": "Sergio Esteban Orellana Rodríguez",
+    "rut": "20905347-0",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "dizquierdo@emlenguaje.ucsc.cl",
+    "name": "Diego Luis Erasmo Izquierdo Williams",
+    "rut": "19699054-2",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "eopazo@emlenguaje.ucsc.cl",
+    "name": "Elizabeth Rayen Opazo Burgos",
+    "rut": "20967333-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cgarrido@emlenguaje.ucsc.cl",
+    "name": "Carolina Alejandra Garrido Carrillo",
+    "rut": "21486125-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mrivas@embiologia.ucsc.cl",
+    "name": "Millaray Antonia Rivas Jara",
+    "rut": "21318969-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "bcaceres@emlenguaje.ucsc.cl",
+    "name": "Brandon Benjamín Cáceres Soto",
+    "rut": "21.184.725-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "vsantos@ebasica.ucsc.cl",
+    "name": "Víctor Maximiliano Santos Belmar",
+    "rut": "21263005-5",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cjarao@ebasica.ucsc.cl",
+    "name": "Catalina Constanza Jara Olmedo",
+    "rut": "21003889-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "acarrasco@ebasica.ucsc.cl",
+    "name": "Alejandro Emmanuel Carrasco Morales",
+    "rut": "19091196-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "groa@ebasica.ucsc.cl",
+    "name": "Gerardo Alberto Roa Ramírez",
+    "rut": "21053163-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jalmonacid@ebasica.ucsc.cl",
+    "name": "Javier Ignacio Rafael Almonacid Poblete",
+    "rut": "21183210-k",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "apinto@ebasica.ucsc.cl",
+    "name": "Antonia Andrea Pinto Vallejos",
+    "rut": "21506342-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "aparedes@ebasica.ucsc.cl",
+    "name": "Annais Isidora Paredes Pérez",
+    "rut": "20.977.9765-k",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "dolaveg@ebasica.ucsc.cl",
+    "name": "Daniela Andrea Olave Gonzalez",
+    "rut": "17572011-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "pmiranda@emlenguaje.ucsc.cl",
+    "name": "Paula Constanza Miranda Estrada",
+    "rut": "21003796-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cafuentealba@emlenguaje.ucsc.cl",
+    "name": "Carolina Alexandra Fuentealba Contreras",
+    "rut": "21118233-4",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ksalas@emlenguaje.ucsc.cl",
+    "name": "Katherine Carolina Salas Cid",
+    "rut": "20.697.736-1",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jsolar@emlenguaje.ucsc.cl",
+    "name": "Josefa Antonella Solar Fernández",
+    "rut": "21498986-7",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cvelasquez@emlenguaje.ucsc.cl",
+    "name": "Constanza Karina Velásquez Jaramillo",
+    "rut": "20390524-6",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mcrisosto@emlenguaje.ucsc.cl",
+    "name": "Marcela Ignacia Crisosto Aguayo",
+    "rut": "21066807-1",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "scancino@emlenguaje.ucsc.cl",
+    "name": "Scarlett Monserrat Cancino Estuardo",
+    "rut": "21592255-3",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ssantander@emlenguaje.ucsc.cl",
+    "name": "Soledad Yamilet Santander Rivas",
+    "rut": "21401203-0",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "lduranp@emlenguaje.ucsc.cl",
+    "name": "Lorena Alejandra Durán Pino",
+    "rut": "21076734-7",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cmolina@emlenguaje.ucsc.cl",
+    "name": "Camila Polet Molina Navarrete",
+    "rut": "21577723-5",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "garaya@emlenguaje.ucsc.cl",
+    "name": "Gladys Alondra Araya Isla",
+    "rut": "212780960",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ccentella@emlenguaje.ucsc.cl",
+    "name": "Catari Yuliana Isabel Centella Loyola",
+    "rut": "21086389-3",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "amunoza@emlenguaje.ucsc.cl",
+    "name": "Angela Inés Muñoz Aguayo",
+    "rut": "19868282-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mramirez@ebasica.ucsc.cl",
+    "name": "María Paz Jael Ramírez Castillo",
+    "rut": "21491458-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "fandrades@ebasica.ucsc.cl",
+    "name": "Fernanda Carolina Andrades Fernández",
+    "rut": "20991499-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "rsantos@ebasica.ucsc.cl",
+    "name": "Rodrigo Ignacio Santos Alarcón",
+    "rut": "20438430-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "bpizarro@ebasica.ucsc.cl",
+    "name": "Belén Noemy Pizarro Torres",
+    "rut": "20766479-0",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ssantander@ebasica.ucsc.cl",
+    "name": "Scarlett Yannara Santander Rivas",
+    "rut": "20571804-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "lgodoy@ebasica.ucsc.cl",
+    "name": "Leila Giomara Godoy Canales",
+    "rut": "21278570-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "afuentesf@ebasica.ucsc.cl",
+    "name": "Ailine Isabel Fuentes Fuentes",
+    "rut": "21311282-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "apalma@ebasica.ucsc.cl",
+    "name": "Araceli Fernanda Palma Vega",
+    "rut": "20515177-K",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "nrecabarren@ebasica.ucsc.cl",
+    "name": "Nadinne Foxg Jacqueline A Recabarren Cuevas",
+    "rut": "20232529-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "rmartinezm@ebasica.ucsc.cl",
+    "name": "Rubén Humberto Martínez Medina",
+    "rut": "19120756-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jrodriguezo@ebasica.ucsc.cl",
+    "name": "Jazmín Angélica Rodríguez Oliva",
+    "rut": "20847187-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "maraya@ebasica.ucsc.cl",
+    "name": "Muriel Valentina Araya Pulgar",
+    "rut": "20512949-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "msaez@ebasica.ucsc.cl",
+    "name": "Marcela Fabiola Saez Acuña",
+    "rut": "20.516.541-k",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ecofre@ebasica.ucsc.cl",
+    "name": "Eduardo Sebastián Gonzalo Cofré Polanco",
+    "rut": "20499766-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cmora@ebasica.ucsc.cl",
+    "name": "Cristian Isai Mora Antilef",
+    "rut": "21251733-k",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "dvasquezm@ebasica.ucsc.cl",
+    "name": "Darlyn Alexia Belén Vásquez Monsalves",
+    "rut": "21080685-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "evergara@emlenguaje.ucsc.cl",
+    "name": "Elsa Catalina Antonia Vergara Troncoso",
+    "rut": "21019251-4",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "farroyo@emlenguaje.ucsc.cl",
+    "name": "Francisca Ignacia Arroyo Yáñez",
+    "rut": "20515994-0",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "falvarez@embiologia.ucsc.cl",
+    "name": "Francisco Javier Álvarez Bobadilla",
+    "rut": "20.037.410-K",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cneiras@emlenguaje.ucsc.cl",
+    "name": "Constanza Barbara Jael Neira Sierralta",
+    "rut": "21166277-8",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "fprieto@emlenguaje.ucsc.cl",
+    "name": "Francisca Monserrat Prieto Garrido",
+    "rut": "21472385-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mfuentealbar@emlenguaje.ucsc.cl",
+    "name": "Matías Alfredo Fuentealba Rodríguez",
+    "rut": "21171258-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "dulloa@emlenguaje.ucsc.cl",
+    "name": "Doris Monserrat Ulloa Cerda",
+    "rut": "19816554-9",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jrubilar@emlenguaje.ucsc.cl",
+    "name": "Julia Alejandra Rubilar Colima",
+    "rut": "20816710-4",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "svalenzuela@emlenguaje.ucsc.cl",
+    "name": "Simón Alejandro Valenzuela Cuevas",
+    "rut": "21020740-6",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "jbustosb@emlenguaje.ucsc.cl",
+    "name": "Jesús Amaro Bustos Borquez",
+    "rut": "21506565-0",
+    "mencion": "MLYHCS",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "scaba@ebasica.ucsc.cl",
+    "name": "Scarlette Josefa Caba Jara",
+    "rut": "21152625-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mcelis@ebasica.ucsc.cl",
+    "name": "María Jesús Celis Rain",
+    "rut": "21507890-6",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mflores@ebasica.ucsc.cl",
+    "name": "Melisa Anaís Flores Grandón",
+    "rut": "20995610-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "klagos@ebasica.ucsc.cl",
+    "name": "Karla Ayline Lagos Yáñez",
+    "rut": "20516986-5",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "mleigton@ebasica.ucsc.cl",
+    "name": "Montserrat Anaís Leigton Figueroa",
+    "rut": "21434417-3",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "amonje@ebasica.ucsc.cl",
+    "name": "Alejandra Belén Monje Cruz",
+    "rut": "21350917-9",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "fneculqueo@ebasica.ucsc.cl",
+    "name": "Fabiola Edith Neculqueo Altamirano",
+    "rut": "20882200-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "vquiroz@ebasica.ucsc.cl",
+    "name": "Valentina Nicole Quiroz Morales",
+    "rut": "20021049-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "sriquelme@ebasica.ucsc.cl",
+    "name": "Sebastián Ignacio Riquelme Contreras",
+    "rut": "21565571-7",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "kriquelme@ebasica.ucsc.cl",
+    "name": "Krishna Chantall Riquelme Yáñez",
+    "rut": "20869254-2",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "asilva@ebasica.ucsc.cl",
+    "name": "Angélica Yelitte Silva Rozas",
+    "rut": "21444693-6",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "ctorres@ebasica.ucsc.cl",
+    "name": "Constanza Belén Torres Salazar",
+    "rut": "20868787-5",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "lvalenzuela@ebasica.ucsc.cl",
+    "name": "Laura Andrea Valenzuela Bouniot",
+    "rut": "19827133-0",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "lavalenzuela@ebasica.ucsc.cl",
+    "name": "Lisette Andrea Valenzuela Campos",
+    "rut": "20975230-1",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "dvega@ebasica.ucsc.cl",
+    "name": "Daniela Geraldine Vega Leiva",
+    "rut": "20613436-4",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "cvinet@ebasica.ucsc.cl",
+    "name": "Catalina Andrea Vinet Andrade",
+    "rut": "21347195-3",
+    "mencion": "MMYCN",
+    "seccion": "Sección Práctica IV",
+    "fuente": "PPIV.xlsx"
+  },
+  {
+    "email": "carolina.gonzalezg@eduandaliencosta.gob.cl",
+    "name": "Carolina Gonzalezg",
+    "rut": "9432807",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "d.munoz@goldenschool.cl",
+    "name": "D Munoz",
+    "rut": "9432807",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "csanchez@lla.cl",
+    "name": "Csanchez",
+    "rut": "9432807",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "karen.figueroa@andaliensur.cl",
+    "name": "Karen Figueroa",
+    "rut": "12115008",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "claudia.gutierrez@d-475.cl",
+    "name": "Claudia Gutierrez",
+    "rut": "12115008",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "ailynvillablanca@colegiolicanraysanpedro.cl",
+    "name": "Ailynvillablanca",
+    "rut": "13105607",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "avargassandres@gmail.com",
+    "name": "Avargassandres",
+    "rut": "13694608",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "valentina.perez@andaliensur.cl",
+    "name": "Valentina Perez",
+    "rut": "13842319",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "k.vidal@goldenschool.cl",
+    "name": "K Vidal",
+    "rut": "13956722",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "jaqueline.riffo@escuelaisladepascua.cl",
+    "name": "Jaqueline Riffo",
+    "rut": "14063248",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "vaninir@ebasica.ucsc.cl",
+    "name": "Vaninir",
+    "rut": "15810383",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "bernardita.glausser@edutome.cl",
+    "name": "Bernardita Glausser",
+    "rut": "15854405",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "solorza.p1549@gmail.com",
+    "name": "Solorza P1549",
+    "rut": "15927725",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "jcabezas@queenelizabeth.cl",
+    "name": "Jcabezas",
+    "rut": "16155474",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "alexvillagra@gmail.com",
+    "name": "Alexvillagra",
+    "rut": "16157837",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "paulina.ortiz@andaliensur.cl",
+    "name": "Paulina Ortiz",
+    "rut": "16167993",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "ppatino@talcahuanoeduca.cl",
+    "name": "Ppatino",
+    "rut": "16185947",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "paulina.ulloa@andaliensur.cl",
+    "name": "Paulina Ulloa",
+    "rut": "16513239",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "patricia.duran@eduandaliencosta.gob.cl",
+    "name": "Patricia Duran",
+    "rut": "16690803",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "pamela.lealt@eduandaliencosta.gob.cl",
+    "name": "Pamela Lealt",
+    "rut": "16764111",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "m.sanmartin@mozartsc.cl",
+    "name": "M Sanmartin",
+    "rut": "16932546",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "nataliamorales@colegiorucalhue.cl",
+    "name": "Nataliamorales",
+    "rut": "17039511",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "svergara@ihcass.cl",
+    "name": "Svergara",
+    "rut": "17165456",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "cmanriquez@laprovidenciaconcepcion.cl",
+    "name": "Cmanriquez",
+    "rut": "17208174",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "camiladuranc25@gmail.com",
+    "name": "Camiladuranc25",
+    "rut": "17344321",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "scarvajal@csac.cl",
+    "name": "Scarvajal",
+    "rut": "18107260",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "cpereiracisternas@gmail.com",
+    "name": "Cpereiracisternas",
+    "rut": "18111485",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "cnavarrete@jsu.coreduc.cl",
+    "name": "Cnavarrete",
+    "rut": "18410470",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "dbarahona@ebasica.ucsc.cl",
+    "name": "Dbarahona",
+    "rut": "18426896",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "cbustosb@ebasica.ucsc.cl",
+    "name": "Cbustosb",
+    "rut": "19088299",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "carmenacuna@ecuadortome.cl",
+    "name": "Carmenacuna",
+    "rut": "19121809",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  },
+  {
+    "email": "paulina.sanchez@cisp.cl",
+    "name": "Paulina Sanchez",
+    "rut": "20020144",
+    "mencion": "MMYCN",
+    "seccion": "Sección General",
+    "fuente": "Plantilla_Matriculacion"
+  }
+]

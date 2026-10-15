@@ -24,7 +24,13 @@ export function parseStructuredPlanDocx(filePath) {
         return reject(new Error(`Error al estructurar plan docx: ${stderr || error.message}`));
       }
       try {
-        const parsed = JSON.parse(stdout);
+        let jsonStr = stdout.trim();
+        const startIdx = jsonStr.indexOf('{');
+        const endIdx = jsonStr.lastIndexOf('}');
+        if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+          jsonStr = jsonStr.substring(startIdx, endIdx + 1);
+        }
+        const parsed = JSON.parse(jsonStr);
         resolve(parsed);
       } catch (err) {
         reject(new Error(`JSON inválido devuelto por extract_docx: ${err.message}`));
