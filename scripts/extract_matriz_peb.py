@@ -1,0 +1,288 @@
+#!/usr/bin/env python3
+"""
+Extrae la matriz de competencias, progresiones y tributación de Pedagogía en Educación Básica (PEB)
+desde el archivo 'MATRIZ TRIBUCACION COMPETENCIAS PEB.xlsx' y genera 'data/matriz_peb.json'.
+"""
+
+import os
+import json
+import zipfile
+import xml.etree.ElementTree as ET
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+XLSX_PATH = os.path.join(BASE_DIR, "MATRIZ TRIBUCACION COMPETENCIAS PEB.xlsx")
+OUT_PATH = os.path.join(BASE_DIR, "data", "matriz_peb.json")
+
+def read_excel_sheets(xlsx_path):
+    with zipfile.ZipFile(xlsx_path) as z:
+        shared = []
+        if 'xl/sharedStrings.xml' in z.namelist():
+            tree = ET.fromstring(z.read('xl/sharedStrings.xml'))
+            ns = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+            for elem in tree.findall(f'.//{ns}t'):
+                shared.append(elem.text or '')
+
+        wb_tree = ET.fromstring(z.read('xl/workbook.xml'))
+        ns = '{http://schemas.openxmlformats.org/spreadsheetml/2006/main}'
+        rels_tree = ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))
+        ns_rel = '{http://schemas.openxmlformats.org/package/2006/relationships}'
+        rel_map = {rel.get('Id'): rel.get('Target') for rel in rels_tree.findall(f'.//{ns_rel}Relationship')}
+
+        sheets_data = {}
+        for s in wb_tree.findall(f'.//{ns}sheet'):
+            s_name = s.get('name').strip()
+            r_id = s.get('{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id')
+            target = rel_map.get(r_id)
+            if not target:
+                continue
+            sheet_file = 'xl/' + target if not target.startswith('xl/') else target
+            if sheet_file not in z.namelist():
+                continue
+            
+            tree = ET.fromstring(z.read(sheet_file))
+            rows = []
+            for r in tree.findall(f'.//{ns}row'):
+                row_vals = []
+                for c in r.findall(f'{ns}c'):
+                    t = c.get('t')
+                    v = c.find(f'{ns}v')
+                    val = v.text if v is not None else ''
+                    if t == 's' and val.isdigit():
+                        idx = int(val)
+                        val = shared[idx] if idx < len(shared) else ''
+                    row_vals.append(val.strip())
+                if any(row_vals):
+                    rows.append(row_vals)
+            sheets_data[s_name] = rows
+        return sheets_data
+
+def build_competency_matrix(sheets):
+    comp_rows = sheets.get("COMPETENCIAS", [])
+    
+    # Modelado de las 3 Competencias Genéricas y 5 Competencias Específicas
+    # En Práctica IV el nivel de dominio tributado es ND2
+    competencias = [
+        {
+            "id": "CG1",
+            "tipo": "Generica",
+            "numero": 1,
+            "nombre": "Diagnóstico social, ético y bien común",
+            "titulo": "Compromiso social, ético y sustentabilidad",
+            "definicion": "Contribuir responsablemente –desde el ámbito de su formación– a satisfacer necesidades sociales mediante iniciativas y propuestas innovadoras, respetuosas con el medio ambiente, con el ser humano y su dignidad trascendente.",
+            "niveles": {
+                "ND1": "Analizar la dignidad y trascendencia de la persona humana relacionándola con el dominio propio de su profesión.",
+                "ND2": "Diagnosticar necesidades que pueden ser satisfechas desde el ámbito de su formación para implementar acciones innovadoras que contribuyan al bien común, relacionándolas con el proyecto personal de desarrollo.",
+                "ND3": "Diagnosticar necesidades complejas e implementar y evaluar proyectos de innovación orientados al bien común institucional y territorial."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA1"],
+            "indicadores_aula": [
+                {"id": "CG1.1", "texto": "Identifica necesidades educativas, contextuales y de bienestar en el grupo escolar."},
+                {"id": "CG1.2", "texto": "Promueve un clima de aula respetuoso con la dignidad y trascendencia de cada estudiante."},
+                {"id": "CG1.3", "texto": "Ajusta actividades o interacciones para responder éticamente a situaciones emergentes del grupo."},
+                {"id": "CG1.4", "texto": "Relaciona las decisiones pedagógicas con el impacto en el bienestar formativo y comunitario."}
+            ]
+        },
+        {
+            "id": "CG2",
+            "tipo": "Generica",
+            "numero": 2,
+            "nombre": "Comunicación profesional efectiva",
+            "titulo": "Comunicación oral y escrita profesional",
+            "definicion": "Comunicarse en español de manera efectiva, en forma oral y escrita, en situaciones sociales, académicas y profesionales.",
+            "niveles": {
+                "ND1": "Comunicarse en los ámbitos sociales y académicos con ajuste a los registros formales de la lengua, en modalidades oral y escrita.",
+                "ND2": "Comunicarse de manera oral y escrita en el ámbito universitario y escolar mediante la comprensión y la producción de géneros académicos progresivamente complejos.",
+                "ND3": "Comunicarse eficazmente mediante géneros especializados que evidencien reelaboración crítica de fuentes en entornos profesionales."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA2"],
+            "indicadores_aula": [
+                {"id": "CG2.1", "texto": "Formula instrucciones, consignas y preguntas con claridad y registro pedagógico adecuado."},
+                {"id": "CG2.2", "texto": "Escucha activamente, reformula y retroalimenta las intervenciones orales de los escolares."},
+                {"id": "CG2.3", "texto": "Utiliza vocabulario disciplinar preciso y comprensible para el nivel de educación básica."},
+                {"id": "CG2.4", "texto": "Estructura la comunicación docente con una progresión lógica (inicio, desarrollo y cierre)."}
+            ]
+        },
+        {
+            "id": "CG3",
+            "tipo": "Generica",
+            "numero": 3,
+            "nombre": "Inglés funcional docente",
+            "titulo": "Comunicación en lengua inglesa para el aula",
+            "definicion": "Comunicarse en lengua inglesa de forma oral y escrita en diversas situaciones del ámbito académico y social.",
+            "niveles": {
+                "ND1": "Comprender y utilizar expresiones cotidianas para relacionarse socialmente de manera oral y escrita en lengua inglesa.",
+                "ND2": "Comprender y utilizar expresiones de uso frecuente, en forma oral y escrita, para desarrollar tareas cotidianas simples con intercambios sencillos y directos de información en lengua inglesa.",
+                "ND3": "Comprender y producir discursos orales y escritos de mediana dificultad y de manera coherente en contextos académicos y laborales."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA3"],
+            "indicadores_aula": [
+                {"id": "CG3.1", "texto": "Utiliza frases funcionales o rutinas pedagógicas en inglés (ej. greetings, classroom routines)."},
+                {"id": "CG3.2", "texto": "Introduce vocabulario clave o materiales con componentes bilingües pertinentes al contexto."},
+                {"id": "CG3.3", "texto": "Elabora resúmenes, fichas o abstracts que demuestran comprensión y uso pedagógico del inglés."}
+            ]
+        },
+        {
+            "id": "CE1",
+            "tipo": "Especifica",
+            "numero": 1,
+            "nombre": "Enfoques inclusivos y diversidad en el aula",
+            "titulo": "Marcos teóricos y procesos inclusivos",
+            "definicion": "Analizar teorías pedagógicas, del aprendizaje y del desarrollo biológico, social y psicológico para implementar procesos pedagógicos que promuevan una escuela inclusiva.",
+            "niveles": {
+                "ND1": "Comprender marcos teóricos de la pedagogía, aprendizaje y desarrollo biológico, social y psicológico que orientan procesos educativos en contextos diversos.",
+                "ND2": "Analizar elementos teóricos de la pedagogía, aprendizaje y desarrollo biopsicosocial para orientar de modo reflexivo procesos pedagógicos inclusivos.",
+                "ND3": "Diseñar procesos pedagógicos en contextos diversos a partir de los marcos regulatorios docentes y referentes biopsicosociales."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA1"],
+            "indicadores_aula": [
+                {"id": "CE1.1", "texto": "Diversifica modalidades de presentación, expresión y participación (principios DUA)."},
+                {"id": "CE1.2", "texto": "Brinda andamiajes diferenciados a estudiantes que enfrentan barreras para el aprendizaje."},
+                {"id": "CE1.3", "texto": "Distribuye equitativamente las oportunidades de intervención y valora las voces de todos los niños."},
+                {"id": "CE1.4", "texto": "Adapta tiempos, ritmos y soportes según los requerimientos detectados en el momento de la clase."}
+            ]
+        },
+        {
+            "id": "CE2",
+            "tipo": "Especifica",
+            "numero": 2,
+            "nombre": "Planificación y evaluación pedagógica",
+            "titulo": "Diseño curricular y evaluación auténtica",
+            "definicion": "Analizar teorías curriculares y evaluativas para diseñar e implementar propuestas pedagógicas pertinentes al contexto escolar.",
+            "niveles": {
+                "ND1": "Comprender perspectivas y enfoques curriculares para relacionarlos con los fundamentos del currículum nacional vigente.",
+                "ND2": "Analizar teorías curriculares y evaluativas para diseñar e implementar propuestas pedagógicas pertinentes al contexto escolar.",
+                "ND3": "Diseñar propuestas pedagógicas en coherencia con teorías curriculares y evaluativas para implementar el currículum en diversos contextos."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA2"],
+            "indicadores_aula": [
+                {"id": "CE2.1", "texto": "Alinea la actividad de clase con los Objetivos de Aprendizaje (OA) y la progresión curricular."},
+                {"id": "CE2.2", "texto": "Formula preguntas de monitoreo formativo durante el desarrollo para verificar comprensión conceptual."},
+                {"id": "CE2.3", "texto": "Aplica instrumentos o pautas de evaluación auténtica coherentes con el criterio de logro."},
+                {"id": "CE2.4", "texto": "Realiza momentos de síntesis y cierre pedagógico donde se evidencia el nivel de logro del OA."}
+            ]
+        },
+        {
+            "id": "CE3",
+            "tipo": "Especifica",
+            "numero": 3,
+            "nombre": "Reflexión crítica y mejora profesional",
+            "titulo": "Evaluación reflexiva basada en evidencia",
+            "definicion": "Evaluar reflexiva y críticamente las prácticas educativas para mejorar la acción docente y el entorno educativo, apoyándose en procesos investigativos.",
+            "niveles": {
+                "ND1": "Indagar situaciones educativas por medio de estrategias de recolección de información para promover procesos reflexivos.",
+                "ND2": "Analizar propuestas pedagógicas basadas en evidencia sistematizada para la implementación de la práctica educativa.",
+                "ND3": "Evaluar críticamente las prácticas educativas considerando evidencia sistematizada y procesos investigativos para mejorar la acción docente."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA3"],
+            "indicadores_aula": [
+                {"id": "CE3.1", "texto": "Selecciona episodios específicos de la clase anclados a evidencia verificable (minutaje, transcripción)."},
+                {"id": "CE3.2", "texto": "Contrasta críticamente lo planificado con lo efectivamente ocurrido en el aula."},
+                {"id": "CE3.3", "texto": "Identifica evidencias discrepantes o momentos donde la mediación pudo profundizarse."},
+                {"id": "CE3.4", "texto": "Formula planes de acción y ajustes didácticos fundamentados para la siguiente clase."}
+            ]
+        },
+        {
+            "id": "CE4",
+            "tipo": "Especifica",
+            "numero": 4,
+            "nombre": "Interdisciplinariedad y vínculo cultural en Básica",
+            "titulo": "Articulación conceptual y cultural",
+            "definicion": "Aplicar y relacionar elementos conceptuales y culturales de los ámbitos del Lenguaje, Lenguaje Artístico, las Matemáticas, Ciencias Naturales, las Ciencias Sociales e inglés, para contribuir al desarrollo del escolar de Educación Básica, en contextos educativos diversos.",
+            "niveles": {
+                "ND1": "Identificar elementos conceptuales y culturales de las áreas disciplinares del currículum de la educación básica en contextos diversos.",
+                "ND2": "Relacionar los elementos conceptuales y culturales de las áreas disciplinares del currículum de educación básica en situaciones de enseñanza-aprendizaje.",
+                "ND3": "Aplicar elementos conceptuales y culturales integrando metodologías activas y saberes culturales en situaciones de aula."
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA3"],
+            "indicadores_aula": [
+                {"id": "CE4.1", "texto": "Vincula contenidos disciplinarios con experiencias cotidianas, patrimonio local o saberes del entorno."},
+                {"id": "CE4.2", "texto": "Articula conceptos entre distintas áreas (ej. Ciencias y Lenguaje, Matemática y Geografía, Arte e Historia)."},
+                {"id": "CE4.3", "texto": "Promueve la curiosidad, el razonamiento interdisciplinario y la aplicación práctica de los aprendizajes."}
+            ]
+        },
+        {
+            "id": "CE5",
+            "tipo": "Especifica",
+            "numero": 5,
+            "nombre": "Situaciones de enseñanza según mención",
+            "titulo": "Didáctica específica de la mención",
+            "definicion": "Diseñar, implementar y evaluar situaciones de enseñanza para el logro de aprendizajes en los alumnos y alumnas, según su condición y contexto, considerando los contenidos curriculares y vínculos patrimoniales/culturales propios de la mención.",
+            "menciones": {
+                "MMYCN": {
+                    "nombre": "Mención Matemática y Ciencias Naturales",
+                    "nd2": "Elaborar e implementar situaciones de enseñanza para el logro de aprendizajes de estudiantes de básica, considerando los contenidos curriculares propios de Matemática y Ciencias Naturales.",
+                    "foco": "Resolución de problemas, modelamiento matemático, indagación científica experimental, uso de representaciones concretas y pictóricas."
+                },
+                "MLYHCS": {
+                    "nombre": "Mención Lenguaje y Comunicación y Ciencias Sociales",
+                    "nd2": "Elaborar e implementar situaciones de enseñanza para el logro de aprendizajes de estudiantes de básica, considerando los contenidos curriculares propios de Lenguaje, Comunicación e Historia/Cs. Sociales.",
+                    "foco": "Comprensión lectora situada, producción escrita auténtica, análisis de fuentes históricas/geográficas y pensamiento crítico ciudadano."
+                },
+                "MINGL": {
+                    "nombre": "Mención Inglés",
+                    "nd2": "Elaborar e implementar situaciones de enseñanza para el logro de aprendizajes de estudiantes de básica, considerando los contenidos curriculares propios del idioma inglés.",
+                    "foco": "Enfoque comunicativo, interacción oral contextualizada, adquisición léxica lúdica y comprensión auditiva/lectora."
+                }
+            },
+            "nivel_esperado_ppiv": "ND2",
+            "ra_asociado": ["RA2"],
+            "indicadores_aula": [
+                {"id": "CE5.1", "texto": "Implementa estrategias didácticas específicas y rigurosas de la disciplina de la mención."},
+                {"id": "CE5.2", "texto": "Gestiona adecuadamente el error de los escolares utilizándolo como oportunidad de construcción conceptual."},
+                {"id": "CE5.3", "texto": "Conecta representaciones conceptuales (concreto, pictórico, simbólico o experiencial)."},
+                {"id": "CE5.4", "texto": "Institucionaliza y consolida los aprendizajes clave antes de concluir la sesión pedagógica."}
+            ]
+        }
+    ]
+
+    resultados_aprendizaje = [
+        {
+            "id": "RA1",
+            "nombre": "Diagnóstico, Ambiente e Inclusión",
+            "descripcion": "Describir el ambiente, los contextos y las interacciones como elementos que intervienen en el aprendizaje de los estudiantes.",
+            "competencias_tributadas": ["CG1", "CE1"],
+            "ponderacion_sugerida": 0.40
+        },
+        {
+            "id": "RA2",
+            "nombre": "Gestión de Aula y Planificación Curricular",
+            "descripcion": "Gestionar la clase considerando la complejidad de elementos que intervienen para promover el aprendizaje de los estudiantes.",
+            "competencias_tributadas": ["CG2", "CE2", "CE5"],
+            "ponderacion_sugerida": 0.35
+        },
+        {
+            "id": "RA3",
+            "nombre": "Evaluación Reflexiva, Interdisciplinariedad y Mejora",
+            "descripcion": "Analizar la gestión pedagógica a través del logro de los resultados de aprendizajes, evidenciados en los estudiantes, para reorientar la práctica docente.",
+            "competencias_tributadas": ["CE3", "CE4", "CG3"],
+            "ponderacion_sugerida": 0.25
+        }
+    ]
+
+    return {
+        "carrera": "Pedagogía en Educación Básica con Menciones",
+        "asignatura": "Práctica Pedagógica IV",
+        "nivel_formativo": "VIII Semestre",
+        "nivel_dominio_general": "ND2",
+        "competencias": competencias,
+        "resultados_aprendizaje": resultados_aprendizaje
+    }
+
+def main():
+    sheets = read_excel_sheets(XLSX_PATH)
+    matriz = build_competency_matrix(sheets)
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
+        json.dump(matriz, f, ensure_ascii=False, indent=2)
+    print(f"Matriz de competencias PEB guardada exitosamente en {OUT_PATH}")
+    print(f"Total competencias: {len(matriz['competencias'])}")
+    print(f"Total Resultados de Aprendizaje: {len(matriz['resultados_aprendizaje'])}")
+
+if __name__ == "__main__":
+    main()

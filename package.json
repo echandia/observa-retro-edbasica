@@ -1,0 +1,27 @@
+{
+  "name": "observa-retro-edbasica",
+  "version": "1.0.0",
+  "description": "Plataforma de Acompañamiento Formativo, Diagnóstico y Retroalimentación Pedagógica · Práctica Pedagógica IV (Educación Básica) - CIAE BASAL / UCSC",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-sqlite server/index.js",
+    "dev": "node --watch --experimental-sqlite server/index.js",
+    "test": "node --experimental-sqlite scripts/test_platform_peb.js",
+    "share": "npx localtunnel --port 3001 --local-host 127.0.0.1",
+    "tunnel": "npx localtunnel --port 3001 --local-host 127.0.0.1 --subdomain ucsc-retro-edbasica"
+  },
+  "keywords": [
+    "practica-pedagogica-iv",
+    "educacion-basica",
+    "reflexion-docente",
+    "chatbot-pedagogico",
+    "competencias-peb",
+    "planificacion-aula"
+  ],
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "author": "CIAE BASAL / UCSC",
+  "license": "ISC"
+}

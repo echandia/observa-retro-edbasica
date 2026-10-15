@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observa-Retro · Pedagogía en Educación Básica (Práctica IV) - UCSC / CIAE</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- Encabezado Principal Institucional UCSC -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">UCSC</div>
+      <div class="brand-text">
+        <h1>Observa-Retro · Ed. Básica</h1>
+        <span>Práctica Pedagógica IV · Facultad de Educación UCSC / CIAE BASAL</span>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span class="badge badge-nd2">Nivel PPIV: ND2</span>
+      <span id="mencion-badge" class="badge badge-mencion">MMYCN</span>
+      <span id="role-badge" class="badge badge-role">ESTUDIANTE</span>
+      <span id="user-badge" style="font-size: 0.85rem; font-weight: 600;">Usuario</span>
+      <button id="btn-config" class="btn btn-sm btn-outline">⚙️ Configuración</button>
+      <button id="btn-logout" class="btn btn-sm btn-outline">Salir</button>
+    </div>
+  </header>
+
+  <!-- Contenedor Principal -->
+  <main class="container">
+
+    <!-- Barra de Selección y Acción de Clase -->
+    <div class="card" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; margin-bottom: 16px;">
+      <div style="display: flex; align-items: center; gap: 12px; flex: 1; min-width: 300px;">
+        <label for="intervencion-select" style="font-weight: 700; font-size: 0.85rem; color: #475569;">CLASE ACTIVA:</label>
+        <select id="intervencion-select" class="form-control" style="font-weight: 600;"></select>
+      </div>
+      <div style="display: flex; gap: 10px;">
+        <button id="btn-nueva-intervencion" class="btn btn-secondary">➕ Nueva Clase</button>
+        <button id="btn-analizar-todo" class="btn btn-primary">⚡ Ejecutar Análisis Integral</button>
+      </div>
+    </div>
+
+    <!-- Pestañas de Navegación -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="tab-plan">📄 1. Planificación de Aula</button>
+      <button class="tab-btn" data-tab="tab-grabacion">🎙️ 2. Grabación y Transcripción</button>
+      <button class="tab-btn" data-tab="tab-contraste">⚖️ 3. Planificado vs. Aula Real</button>
+      <button class="tab-btn" data-tab="tab-competencias">🎯 4. Competencias PEB (ND2)</button>
+      <button class="tab-btn" data-tab="tab-reflexion">💬 5. Tutor Reflexivo PPIV</button>
+      <button class="tab-btn" data-tab="tab-portafolio">📝 6. Asistente Portafolio (Capítulo 8)</button>
+      <button id="tab-btn-tutor" class="tab-btn" data-tab="tab-tutor" style="display: none;">👨‍🏫 Panel Formador / Tutor</button>
+    </nav>
+
+    <!-- ========================================== -->
+    <!-- TAB 1: Planificación de Aula -->
+    <!-- ========================================== -->
+    <section id="tab-plan" class="tab-content active">
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title">
+            <span>Cargar Planificación Docente (.docx)</span>
+            <span class="badge badge-mencion">Formato Oficial PPIV</span>
+          </div>
+          <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+            Sube el archivo de planificación de tu clase (plantilla oficial con progresión curricular, momentos de inicio, desarrollo y cierre).
+          </p>
+          <div class="upload-box" onclick="document.getElementById('plan-file-input').click()">
+            <div style="font-size: 32px; margin-bottom: 8px;">📂</div>
+            <p><strong>Haz clic aquí para seleccionar tu planificación Word (.docx)</strong></p>
+            <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 4px;">Compatible con Formato_Planificacion.docx de PPIV</p>
+          </div>
+          <input type="file" id="plan-file-input" accept=".docx,.doc,.txt" style="display: none;">
+
+          <div id="plan-status-box" style="margin-top: 16px;"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-title">
+            <span>Rúbrica de Planificación Docente (PPIV)</span>
+          </div>
+          <div style="font-size: 0.85rem; line-height: 1.6; color: #334155;">
+            <p><strong>1. Caracterización Global:</strong> Identificación precisa de temática, nivel educativo básico, asignatura y tiempo.</p>
+            <p><strong>2. Marco Curricular:</strong> Progresión lógica de Objetivos de Aprendizaje (Previos, a Trabajar y Futuros) y formulación con verbo + contenido + condición.</p>
+            <p><strong>3. Momentos de Aula:</strong> Inicio (activación y propósito), Desarrollo (preguntas cognitivas y modelaje) y Cierre (síntesis y metacognición).</p>
+            <p><strong>4. Recursos y Evaluación:</strong> Materiales diversificados (DUA) e instrumentos auténticos de evaluación formativa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 2: Grabación y Transcripción de Clase -->
+    <!-- ========================================== -->
+    <section id="tab-grabacion" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <span>Grabación de Aula y Transcripción</span>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <button class="btn btn-sm btn-secondary" onclick="document.getElementById('grabacion-file-input').click()">
+              📤 Subir Grabación (Audio / Video)
+            </button>
+            <button class="btn btn-sm btn-secondary" onclick="document.getElementById('transcripcion-file-input').click()">
+              📄 Subir Transcripción (.docx, .txt, .vtt)
+            </button>
+            <button id="btn-pegar-transcripcion" class="btn btn-sm btn-secondary">
+              ✏️ Pegar Transcripción
+            </button>
+            <button id="btn-transcribir" class="btn btn-sm btn-primary">
+              🎙️ Transcribir con IA
+            </button>
+          </div>
+        </div>
+        <input type="file" id="grabacion-file-input" accept="audio/*,video/*" style="display: none;">
+        <input type="file" id="transcripcion-file-input" accept=".docx,.doc,.txt,.vtt,.srt" style="display: none;">
+
+        <!-- Reproductor de Audio / Video -->
+        <div class="player-container">
+          <div class="player-controls">
+            <button class="btn btn-sm btn-outline" onclick="App.player?.play()">▶ Reproducir</button>
+            <button class="btn btn-sm btn-outline" onclick="App.player?.pause()">⏸ Pausa</button>
+            <input type="range" id="audio-scrubber" class="scrubber" min="0" max="100" value="0">
+            <span id="audio-time" style="font-family: monospace; font-size: 0.85rem;">00:00 / 00:00</span>
+          </div>
+          <audio id="audio-element" style="display: none;"></audio>
+        </div>
+
+        <!-- Momentos / Episodios Didácticos -->
+        <div style="margin-bottom: 12px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-muted);">SALTO RÁPIDO A MOMENTOS:</span>
+          <div id="episodios-nav" style="display: flex; gap: 6px; flex-wrap: wrap;"></div>
+        </div>
+
+        <!-- Visor de Transcripción -->
+        <div class="transcript-container" id="transcript-list"></div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 3: Planificado vs. Aula Real -->
+    <!-- ========================================== -->
+    <section id="tab-contraste" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <span>Cuadro Comparativo: Planificación Curricular vs. Ejecución Real en el Aula</span>
+          <span class="badge badge-nd2">Triangulación Pedagógica</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+          Contrasta punto a punto lo diseñado por el practicante frente a los episodios efectivamente registrados en la grabación de aula.
+        </p>
+
+        <table class="contrast-table">
+          <thead>
+            <tr>
+              <th style="width: 22%;">Dimensión / Momento</th>
+              <th style="width: 32%;">Diseño Planificado</th>
+              <th style="width: 34%;">Observado en el Aula Real</th>
+              <th style="width: 12%;">Estado</th>
+            </tr>
+          </thead>
+          <tbody id="contraste-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 4: Matriz de Competencias PEB (Nivel ND2) -->
+    <!-- ========================================== -->
+    <section id="tab-competencias" class="tab-content">
+      <div style="margin-bottom: 16px;">
+        <h3 style="font-size: 1.15rem; font-weight: 700;">Diagnóstico de Competencias · Nivel de Dominio 2 (ND2)</h3>
+        <p style="font-size: 0.88rem; color: var(--text-muted);">
+          Valoración fundamentada a partir de las evidencias recolectadas en la planificación y grabación de aula.
+        </p>
+      </div>
+
+      <div class="grid-3" id="competencias-grid"></div>
+
+      <!-- Referencia Teórica de la Matriz PEB -->
+      <div class="card" style="margin-top: 24px;">
+        <div class="card-title">
+          <span>Referencia de Competencias del Perfil de Egreso PEB</span>
+          <span class="badge badge-role">Malla Curricular UCSC</span>
+        </div>
+        <div id="matriz-reference-list"></div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 5: Tutor Reflexivo PPIV (Chatbot) -->
+    <!-- ========================================== -->
+    <section id="tab-reflexion" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <span>Acompañamiento Socrático · Tutor Reflexivo de Práctica IV</span>
+          <span class="badge badge-mencion">5 Fases Formativas</span>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+          Diálogo reflexivo guiado para examinar decisiones didácticas, razonamiento de los estudiantes y compromisos de mejora docente.
+        </p>
+
+        <div class="chat-window">
+          <div class="chat-messages" id="chat-messages"></div>
+          <form id="chat-form" class="chat-input-area">
+            <input type="text" id="chat-input" class="chat-input" placeholder="Escribe tu reflexión pedagógica aquí..." autocomplete="off">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 6: Asistente Portafolio (Capítulo 8) -->
+    <!-- ========================================== -->
+    <section id="tab-portafolio" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <span>Borrador Automatizado: Capítulo 8 (Reflexión Docente)</span>
+          <div style="display: flex; gap: 8px;">
+            <button id="btn-compilar-portafolio" class="btn btn-sm btn-secondary">🔄 Actualizar Borrador</button>
+            <button id="btn-copiar-portafolio" class="btn btn-sm btn-success">📋 Copiar al Portapapeles</button>
+          </div>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+          Estructura alineada con la Rúbrica Analítica de Portafolio Docente (hasta 3 páginas) integrando evidencias de aula, análisis de decisiones y plan de mejora.
+        </p>
+
+        <pre class="markdown-preview" id="portafolio-preview"></pre>
+      </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- TAB 7: Panel Formador / Tutor -->
+    <!-- ========================================== -->
+    <section id="tab-tutor" class="tab-content">
+      <div class="card">
+        <div class="card-title">
+          <span>Seguimiento y Tutoría de Practicantes de Educación Básica</span>
+          <button id="btn-sync-roster" class="btn btn-sm btn-secondary">📥 Sincronizar Nóminas desde Excel</button>
+        </div>
+        <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">
+          Supervisión por sección docente (Prof. Lester Aliaga, Prof. María Angélica Uribe, Prof. Tamara Luna).
+        </p>
+
+        <table class="contrast-table">
+          <thead>
+            <tr>
+              <th>Practicante</th>
+              <th>Clase / Intervención</th>
+              <th>Fecha</th>
+              <th>Estado</th>
+              <th>Acción</th>
+            </tr>
+          </thead>
+          <tbody id="tutor-table-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal: Login -->
+  <div class="modal-overlay" id="modal-login">
+    <div class="modal-card">
+      <h3 style="margin-bottom: 12px;">Iniciar Sesión · Observa-Retro Básica</h3>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+        Ingresa con tu correo institucional UCSC. Acceso rápido para practicantes: contraseña <code>practica2026</code> o <code>basica2026</code>. Formadores: <code>tutor2026</code>.
+      </p>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">Correo Electrónico:</label>
+          <input type="email" id="login-email" class="form-control" value="practicante.basica@ucsc.cl" required>
+        </div>
+        <div class="form-group">
+          <label for="login-pass">Contraseña:</label>
+          <input type="password" id="login-pass" class="form-control" value="basica2026" required>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Ingresar a la Plataforma</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Nueva Clase -->
+  <div class="modal-overlay" id="modal-nueva-intervencion">
+    <div class="modal-card">
+      <h3 style="margin-bottom: 12px;">Registrar Nueva Clase de Intervención</h3>
+      <form id="form-nueva-intervencion">
+        <div class="form-group" id="group-new-estudiante" style="display: none;">
+          <label for="new-estudiante">Practicante Asignado (Estudiante):</label>
+          <select id="new-estudiante" class="form-control">
+            <option value="">-- Asignar a mi propio perfil (Tutor/Admin) --</option>
+          </select>
+          <small style="color: var(--text-muted); font-size: 0.78rem;">Como tutor, selecciona al estudiante practicante al cual pertenece esta clase para subir sus archivos y analizar su desempeño.</small>
+        </div>
+        <div class="form-group">
+          <label for="new-titulo">Título de la Clase:</label>
+          <input type="text" id="new-titulo" class="form-control" value="Representación de Fracciones y Números Mixtos" required>
+        </div>
+        <div class="form-group">
+          <label for="new-nivel">Nivel Educativo:</label>
+          <select id="new-nivel" class="form-control">
+            <option value="3° Básico">3° Básico</option>
+            <option value="4° Básico">4° Básico</option>
+            <option value="5° Básico" selected>5° Básico</option>
+            <option value="6° Básico">6° Básico</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="new-mencion">Mención Disciplinar:</label>
+          <select id="new-mencion" class="form-control">
+            <option value="MMYCN" selected>Matemática y Ciencias Naturales (MMYCN)</option>
+            <option value="MLYHCS">Lenguaje y Ciencias Sociales (MLYHCS)</option>
+            <option value="MINGL">Inglés (MINGL)</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="new-colegio">Centro de Práctica (Colegio):</label>
+          <input type="text" id="new-colegio" class="form-control" value="Colegio Gran Bretaña">
+        </div>
+        <div class="form-group">
+          <label for="new-fecha">Fecha de Clase:</label>
+          <input type="date" id="new-fecha" class="form-control" value="2026-04-15">
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+          <button type="button" class="btn btn-secondary btn-close-modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary">Crear Clase</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Configuración IA -->
+  <div class="modal-overlay" id="modal-config">
+    <div class="modal-card">
+      <h3 style="margin-bottom: 12px;">Configuración de Transcripción e IA</h3>
+      <form id="form-config">
+        <div class="form-group">
+          <label for="cfg-provider">Motor de Transcripción:</label>
+          <select id="cfg-provider" class="form-control">
+            <option value="demo">Modo Demostración (Sin costo / Clase de Básica real)</option>
+            <option value="gemini">Google AI Studio (Gemini 2.5 Flash Multimodal)</option>
+            <option value="groq">Groq Whisper (Velocidad ultrarrápida)</option>
+            <option value="openai">OpenAI Whisper</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="cfg-key">Clave API (API Key):</label>
+          <input type="password" id="cfg-key" class="form-control" placeholder="Pega tu clave API aquí...">
+          <small style="color: #64748b; font-size: 0.75rem;">Para el modo Demostración no se requiere clave.</small>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 16px;">
+          <button type="button" class="btn btn-secondary btn-close-modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Guardar Configuración</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Modal: Pegar Transcripción Directa -->
+  <div class="modal-overlay" id="modal-pegar-transcripcion">
+    <div class="modal-card" style="max-width: 680px;">
+      <h3 style="margin-bottom: 8px;">Ingresar o Pegar Transcripción de la Clase</h3>
+      <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+        Pega el texto de la clase grabada. Puedes incluir marcas de tiempo en formato <code>[MM:SS] Hablante: Texto</code> o simplemente el diálogo por párrafos (el sistema asignará marcas de tiempo y hablantes automáticamente).
+      </p>
+      <form id="form-pegar-transcripcion">
+        <div class="form-group">
+          <textarea id="text-transcripcion-pegada" class="form-control" rows="12" style="font-family: monospace; font-size: 0.85rem;" placeholder="[00:00:10] Practicante: Buenos días niños y niñas...&#10;[00:00:25] E1: Buenos días tía..." required></textarea>
+        </div>
+        <div style="display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px;">
+          <button type="button" class="btn btn-secondary btn-close-modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary">Guardar y Segmentar Transcripción</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="/js/api.js"></script>
+  <script src="/js/audioPlayer.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

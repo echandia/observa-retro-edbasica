@@ -1,0 +1,1639 @@
+{
+  "metadatos": {
+    "anio": 2025,
+    "carrera": "Pedagogía en Educación Básica",
+    "asignatura": "Práctica Pedagógica IV",
+    "total_portafolios_analizados": 37,
+    "distribucion_secciones": {
+      "General": 2,
+      "María Angélica Uribe Lara (PIV Matemáticas)": 7,
+      "Resultados de Aprendizaje": 11,
+      "MARIA A. URIBE": 2,
+      "TAMARA LUNA": 10,
+      "LESTER ALIAGA": 5
+    }
+  },
+  "criterios_rubrica_portafolio": [
+    "Aspectos Formales",
+    "Resumen (200 a 250 palabras)",
+    "Abstract (inglés bilingüe e inclusivo)",
+    "Introducción (propósito, inclusión, interdisciplinariedad)",
+    "Dimensionamiento Institucional y Diagnóstico (cognitivo, socioemocional, DIA/SIMCE)",
+    "Situación Pedagógica Observada (necesidad fundada teóricamente)",
+    "Secuencia Didáctica de Aula (planificación implementada)",
+    "Reflexión Docente Crítica (decisiones didácticas, relación teoría-práctica, evidencias de aprendizaje)",
+    "Conclusiones Finales y Plan de Desarrollo Profesional",
+    "Bibliografía y Citas Normativas/Académicas",
+    "Anexos (guía de aprendizaje, instrumentos, evidencias)"
+  ],
+  "portafolios": [
+    {
+      "archivo": "Distribución de competencias PPIV.docx",
+      "ruta_relativa": "Distribución de competencias PPIV.docx",
+      "profesor_seccion": "General",
+      "estudiante_detectado": "Distribución de competencias",
+      "total_parrafos": 61,
+      "total_palabras": 512,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Rúbrica Analítica del Portafolio Docente.docx",
+      "ruta_relativa": "Rúbrica Analítica del Portafolio Docente.docx",
+      "profesor_seccion": "General",
+      "estudiante_detectado": "Rúbrica Analítica del",
+      "total_parrafos": 56,
+      "total_palabras": 789,
+      "secciones_detectadas": [
+        "portada",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "diagnostico",
+        "situacion_observada",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "conclusiones",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Breve descripción que incluye el propósito del portafolio, principales evidencias en el centro de práctica y todas las competencias demostradas (dentro y fuera del aula). Describe el propósito y evidencias, pero omite o aborda superficialmente las competencias demostradas5. El resumen es inadecuado,",
+      "extracto_reflexion": "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los aprendizajes clave de la didáctica específica y el impacto en su visión como futuro docente. Incluye la retroalimentación del",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [
+          "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los apren",
+          "Cumple con la mayoría de los puntos, pero el análisis es más descriptivo que crítico, o falta la evidencia para respaldar la reflexión363636363636363636.",
+          "Ausencia de análisis crítico, falta de evidencia de los aprendizajes logrados o no se aborda la relación teoría-práctica ni la didáctica específica."
+        ],
+        "CE4": [],
+        "CE5": [
+          "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los apren",
+          "Ausencia de análisis crítico, falta de evidencia de los aprendizajes logrados o no se aborda la relación teoría-práctica ni la didáctica específica."
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente Belén Pizarro.docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio Docente Belén Pizarro.docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "Belén Pizarro",
+      "total_parrafos": 182,
+      "total_palabras": 3319,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Este portafolio tiene como propósito presentar las competencias desarrolladas por los futuros profesionales de la educación, a partir de la identificación de una necesidad educativa evidenciada en pruebas diagnósticas como DIA y SIMCE. Con base en esta necesidad, se diseña e implementa una propuesta",
+      "extracto_reflexion": "Entre los principales principios teóricos reflejados durante la secuencia didáctica destaca la teoría sociocultural de Vygotsky. Cada clase incorporó elementos centrales de este enfoque, tales como la interacción entre los estudiantes y con la docente, donde se realizaban preguntas relacionadas a contenidos y se esperaba la respuesta de los alumnos, así como a la disposición abierta a responder du",
+      "evidencias_competencias": {
+        "CG1": [
+          "Acciones a largo plazo; Participar en cursos breves sobre inclusión o comprensión lectora, crear un portafolio profesional con evidencias y reflexiones, integrarme a comunidades docentes para compartir experiencias."
+        ],
+        "CG2": [
+          "Sin embargo, también reconozco aspectos que debo mejorar. En primer lugar, necesito fortalecer la claridad y precisión de mis instrucciones para evitar confusiones y optimizar el tiempo de trabajo de los estudiantes. Además, debo seguir perfeccionando mi manejo del tiempo, especi"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Por ahora, en relación a algunas mejoras para la secuencia, sería quizás profundizar más en la lectura o en el trabajo interdisciplinario, así como en buscar la forma de adecuar aún más las clases a instancias inclusivas, utilizando recursos aún más pertinentes para responder a l",
+          "La práctica pedagógica tiene un impacto profundo en nuestra formación: aprendemos nuevas metodologías, las analizamos críticamente y volvemos a apropiarnos de contenidos que creíamos olvidados al observar clases y acompañar a los estudiantes. También reafirma la importancia de re",
+          "A partir de esta experiencia he aprendido que la práctica pedagógica es un proceso profundamente formativo, no solo porque me permite poner en acción conocimientos teóricos, sino porque me enfrenta a desafíos reales que requieren flexibilidad, análisis y toma de decisiones. Compr"
+        ],
+        "CE2": [
+          "De igual manera, las actividades de desarrollo y cierre resultaron coherentes con el contexto y con las evidencias obtenidas en la prueba DIA, especialmente considerando la necesidad de fortalecer la lectura. Por ello, se incorporó una historia matemática que permitiera analizar ",
+          "Rúbrica15",
+          "Sin embargo, también reconozco aspectos que debo mejorar. En primer lugar, necesito fortalecer la claridad y precisión de mis instrucciones para evitar confusiones y optimizar el tiempo de trabajo de los estudiantes. Además, debo seguir perfeccionando mi manejo del tiempo, especi"
+        ],
+        "CE3": [
+          "De igual manera, las actividades de desarrollo y cierre resultaron coherentes con el contexto y con las evidencias obtenidas en la prueba DIA, especialmente considerando la necesidad de fortalecer la lectura. Por ello, se incorporó una historia matemática que permitiera analizar ",
+          "Finalmente, aunque me gustaría reflexionar sobre la participación y retroalimentación del docente colaborador, esta fue prácticamente inexistente. A pesar de su presencia en el aula, no se recibieron comentarios formales sobre aspectos a mejorar ni se observó una participación ac",
+          "Debo mantener prácticas que demuestren ser coherentes y efectivas, como el uso de estrategias colaborativas, la integración del enfoque inclusivo, el diseño de actividades variadas y significativas, y la preocupación por vincular los contenidos con experiencias motivadoras, como "
+        ],
+        "CE4": [
+          "Esta experiencia ha influido en mi visión docente respecto de las necesidades de los estudiantes y la importancia de la interdisciplinariedad. Asignaturas aparentemente distantes, como Lenguaje y Matemática, pueden complementarse y enriquecerse mutuamente para fortalecer aprendiz",
+          "Por ahora, en relación a algunas mejoras para la secuencia, sería quizás profundizar más en la lectura o en el trabajo interdisciplinario, así como en buscar la forma de adecuar aún más las clases a instancias inclusivas, utilizando recursos aún más pertinentes para responder a l",
+          "Sin embargo, también reconozco aspectos que debo mejorar. En primer lugar, necesito fortalecer la claridad y precisión de mis instrucciones para evitar confusiones y optimizar el tiempo de trabajo de los estudiantes. Además, debo seguir perfeccionando mi manejo del tiempo, especi"
+        ],
+        "CE5": [
+          "Entre los principales principios teóricos reflejados durante la secuencia didáctica destaca la teoría sociocultural de Vygotsky. Cada clase incorporó elementos centrales de este enfoque, tales como la interacción entre los estudiantes y con la docente, donde se realizaban pregunt",
+          "De igual manera, las actividades de desarrollo y cierre resultaron coherentes con el contexto y con las evidencias obtenidas en la prueba DIA, especialmente considerando la necesidad de fortalecer la lectura. Por ello, se incorporó una historia matemática que permitiera analizar ",
+          "No se descartaron alternativas significativas durante la planificación, ya que desde el inicio existió la intención de integrar historias matemáticas dentro del contenido, enfoque que finalmente fue implementado."
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV Andrades F. .docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio Docente PPIV Andrades F. .docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "Andrades F.",
+      "total_parrafos": 163,
+      "total_palabras": 2298,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "situacion_observada",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Este Portafolio Docente documenta la Práctica Pedagógica Profesional IV en el Colegio John F. Kennedy, Chiguayante. Su propósito es evaluar el quehacer profesional, evidenciando competencias en el diagnóstico contextualizado, la planificación e implementación didáctica y la reflexión crítica. El inf",
+      "extracto_reflexion": "El portafolio docente vaciado en este informe nos permite identificar aspectos cualitativos y cuantitativos que todo docente o futuro profesor debe manejar, de este modo tendrá las herramientas suficientes y necesarias, a lo menos básicas, para poder comenzar a enfrentar su vida laboral. Muchas veces, las realidades se parcelan, al mirar al docente solo desde el trabajo de aula, pero el trabajo de",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [
+          "Dificultades: Se identificó una resistencia inicial al trabajo colaborativo en la Clase 2, atribuible a la costumbre del curso a un trabajo individual. Adicionalmente, algunos estudiantes mostraron dificultad para transferir directamente del dibujo al algoritmo abstracto sin el p"
+        ],
+        "CE1": [
+          "Dificultades: Se identificó una resistencia inicial al trabajo colaborativo en la Clase 2, atribuible a la costumbre del curso a un trabajo individual. Adicionalmente, algunos estudiantes mostraron dificultad para transferir directamente del dibujo al algoritmo abstracto sin el p",
+          "Impacto del DUA: El uso de las \"tarjetas de apoyo\" con las tablas de multiplicar demostró ser un recurso de inclusión fundamental. Al reducir la carga memorística del cálculo, se permitió que los estudiantes se enfocaran en la estrategia de división (descomposición) y el razonami",
+          "El Docente como Mediador y Agente de Inclusión: El rol del futuro docente es el de un mediador constructivista que facilita el andamiaje. Además, es un agente activo de inclusión, utilizando herramientas como el DUA para diversificar la enseñanza y asegurar que las barreras cogni"
+        ],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": [
+          "La implementación de la secuencia didáctica basada en el enfoque COPISI fue esencial para superar la metodología conductista observada.",
+          "Secuencia didáctica14",
+          "Validación de Estrategias Constructivistas: La implementación exitosa del enfoque COPISI para el OA 06 de Matemática demostró que la comprensión profunda de los conceptos se logra a través de la manipulación y la representación (constructivismo), y no solo a través de la transmis"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PAULINA MENDEZ (1).docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio Docente PAULINA MENDEZ (1).docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "PAULINA MENDEZ (1)",
+      "total_parrafos": 113,
+      "total_palabras": 2724,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia"
+      ],
+      "extracto_resumen": "El presente portafolio profesional tiene como propósito evidenciar y reflexionar de manera sistemática sobre el quehacer docente, constituyéndose como un instrumento de evaluación integral del desempeño pedagógico dentro y fuera del aula. A través de diversas evidencias recopiladas en el centro de p",
+      "extracto_reflexion": "El diseño de la secuencia didáctica estuvo sustentado en principios constructivistas (Piaget, Vygotsky) y en el DUA, buscando favorecer la participación y el acceso al aprendizaje. Estos principios se reflejaron en la elección de actividades graduales y en el uso de andamiaje, aunque en la práctica surgieron desafíos relacionados con el ritmo heterogéneo del grupo. Por ejemplo, en la evaluación di",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [
+          "Las decisiones didácticas —como iniciar con una actividad breve de activación de conocimientos, usar recursos visuales y formular preguntas guía abiertas— se tomaron para generar un ambiente seguro y propiciar el logro del OA. La evidencia recogida en el registro de observación m",
+          "Finalmente, la retroalimentación del docente colaborador fue fundamental: destacó la claridad de las instrucciones, pero sugirió incorporar más momentos de metacognición. Esto impulsó mi desarrollo profesional continuo, recordando que la enseñanza es un proceso reflexivo en const"
+        ],
+        "CG3": [],
+        "CE1": [
+          "El diseño de la secuencia didáctica estuvo sustentado en principios constructivistas (Piaget, Vygotsky) y en el DUA, buscando favorecer la participación y el acceso al aprendizaje. Estos principios se reflejaron en la elección de actividades graduales y en el uso de andamiaje, au",
+          "Anticipé dificultades vinculadas al manejo de la diversidad —especialmente en estudiantes con menor autorregulación—, al uso del tiempo y a la disponibilidad de recursos. Para ello planifiqué tiempos escalonados, apoyos diferenciados y un ticket de salida que permitiera verificar",
+          "La experiencia desarrollada y sistematizada en este portafolio se sitúa en un contexto educativo diverso, caracterizado por distintos ritmos y estilos de aprendizaje, así como por necesidades socioemocionales que influyen directamente en los procesos de enseñanza y aprendizaje. A"
+        ],
+        "CE2": [
+          "Durante la implementación, la evidencia de aprendizaje se observó en los borradores producidos por los estudiantes: un 65% mejoró la coherencia de sus textos, según la rúbrica aplicada. Se habían considerado alternativas como trabajar con escritura libre o lectura modelo, pero se",
+          "Entre los aprendizajes clave destaca la importancia del modelamiento explícito en la didáctica de la escritura y el valor del error como parte del proceso de reelaboración. Esta experiencia fortaleció mi visión docente: comprendí que la planificación debe ser flexible y responder",
+          "En el reconocimiento de los aprendizajes profesionales adquiridos, esta experiencia permitió comprender la importancia de una enseñanza flexible, reflexiva y centrada en el estudiante. Como docente, he aprendido a valorar la evaluación formativa como una herramienta clave para la"
+        ],
+        "CE3": [
+          "Las decisiones didácticas —como iniciar con una actividad breve de activación de conocimientos, usar recursos visuales y formular preguntas guía abiertas— se tomaron para generar un ambiente seguro y propiciar el logro del OA. La evidencia recogida en el registro de observación m",
+          "Durante la implementación, la evidencia de aprendizaje se observó en los borradores producidos por los estudiantes: un 65% mejoró la coherencia de sus textos, según la rúbrica aplicada. Se habían considerado alternativas como trabajar con escritura libre o lectura modelo, pero se",
+          "Finalmente, la retroalimentación del docente colaborador fue fundamental: destacó la claridad de las instrucciones, pero sugirió incorporar más momentos de metacognición. Esto impulsó mi desarrollo profesional continuo, recordando que la enseñanza es un proceso reflexivo en const"
+        ],
+        "CE4": [
+          "La experiencia desarrollada y sistematizada en este portafolio se sitúa en un contexto educativo diverso, caracterizado por distintos ritmos y estilos de aprendizaje, así como por necesidades socioemocionales que influyen directamente en los procesos de enseñanza y aprendizaje. A",
+          "Desde el análisis de la práctica docente, se evidencia que la planificación basada en diagnósticos iniciales (DIA), la aplicación de estrategias diversificadas y el enfoque interdisciplinario favorecieron una mayor comprensión de los contenidos y un aumento en la motivación de lo",
+          "Finalmente, a partir de esta reflexión, se proyecta un plan de desarrollo profesional orientado al perfeccionamiento continuo. Este contempla la participación en instancias de formación relacionadas con educación inclusiva, evaluación formativa e interdisciplinariedad, así como e"
+        ],
+        "CE5": [
+          "El diseño de la secuencia didáctica estuvo sustentado en principios constructivistas (Piaget, Vygotsky) y en el DUA, buscando favorecer la participación y el acceso al aprendizaje. Estos principios se reflejaron en la elección de actividades graduales y en el uso de andamiaje, au",
+          "Las decisiones didácticas —como iniciar con una actividad breve de activación de conocimientos, usar recursos visuales y formular preguntas guía abiertas— se tomaron para generar un ambiente seguro y propiciar el logro del OA. La evidencia recogida en el registro de observación m",
+          "Durante la implementación, la evidencia de aprendizaje se observó en los borradores producidos por los estudiantes: un 65% mejoró la coherencia de sus textos, según la rúbrica aplicada. Se habían considerado alternativas como trabajar con escritura libre o lectura modelo, pero se"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio .docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio .docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "Estudiante Práctica IV",
+      "total_parrafos": 115,
+      "total_palabras": 4798,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio tiene como propósito documentar, analizar y reflexionar críticamente sobre el proceso de Práctica Pedagógica Profesional realizado en el Colegio Aníbal Esquivel Tapia con el curso 6° Básico C. A través de la sistematización de experiencias de aula, se presentan evidencias que ",
+      "extracto_reflexion": "La reflexión docente, según Perrenoud (2004) sostiene que la práctica pedagógica mejora cuando el profesor es capaz de analizar críticamente sus decisiones, regular su acción y aprender desde la experiencia. Bajo este marco, la siguiente reflexión surge a partir de la implementación de la primera clase de la secuencia didáctica de Lenguaje y Comunicación, integrada con Historia, desarrollada con e",
+      "evidencias_competencias": {
+        "CG1": [
+          "Finalmente, este portafolio refleja un proceso formativo que incluye no solo lo escrito, sino también los desafíos cotidianos de la convivencia, el acompañamiento emocional y las adaptaciones realizadas en el aula. En conjunto, esta experiencia reafirma mi compromiso con una prác"
+        ],
+        "CG2": [
+          "La reflexión docente, según Perrenoud (2004) sostiene que la práctica pedagógica mejora cuando el profesor es capaz de analizar críticamente sus decisiones, regular su acción y aprender desde la experiencia. Bajo este marco, la siguiente reflexión surge a partir de la implementac",
+          "A partir de esta experiencia, el docente reconoce la relevancia de la flexibilidad pedagógica, de ajustar la planificación a las necesidades reales del grupo y de priorizar estrategias que fortalezcan el clima socioemocional. Identifica la importancia de mantener la claridad en l"
+        ],
+        "CG3": [],
+        "CE1": [
+          "A partir de esta experiencia, el docente reconoce la relevancia de la flexibilidad pedagógica, de ajustar la planificación a las necesidades reales del grupo y de priorizar estrategias que fortalezcan el clima socioemocional. Identifica la importancia de mantener la claridad en l",
+          "La realización de este portafolio docente me permitió sistematizar la experiencia vivida durante mi Práctica Pedagógica Profesional en el Colegio Aníbal Esquivel Tapia, en un curso marcado por la diversidad cultural, los distintos estilos de aprendizaje y necesidades socioemocion",
+          "La END fue una instancia clave para reconocer mis fortalezas y debilidades dentro de la formación inicial docente. Sus resultados me permitieron identificar avances en planificación y gestión pedagógica, así como aspectos que debo fortalecer, especialmente en evaluación y atenció"
+        ],
+        "CE2": [
+          "La experiencia analizada corresponde a la implementación de la primera sesión de la secuencia didáctica. El propósito central de la clase fue que los estudiantes comprendieran los elementos fundamentales del género dramático mediante la lectura guiada del texto “El viajero del ti",
+          "Por otra parte, proyecta la incorporación de metodologías más dinámicas, como la lectura dramatizada guiada o el trabajo por estaciones, que podrían incrementar la motivación y el involucramiento estudiantil. Finalmente, estima pertinente utilizar de forma más sistemática rúbrica"
+        ],
+        "CE3": [
+          "Durante la clase, la mayoría de los estudiantes mostró buena disposición y participó activamente en las actividades. No obstante, se presentaron dificultades vinculadas al incumplimiento de normas de convivencia por parte de algunos, lo que generó interrupciones y obligó a repeti",
+          "La realización de este portafolio docente me permitió sistematizar la experiencia vivida durante mi Práctica Pedagógica Profesional en el Colegio Aníbal Esquivel Tapia, en un curso marcado por la diversidad cultural, los distintos estilos de aprendizaje y necesidades socioemocion"
+        ],
+        "CE4": [
+          "La reflexión docente, según Perrenoud (2004) sostiene que la práctica pedagógica mejora cuando el profesor es capaz de analizar críticamente sus decisiones, regular su acción y aprender desde la experiencia. Bajo este marco, la siguiente reflexión surge a partir de la implementac",
+          "A partir de esta experiencia, surgen oportunidades de mejora orientadas a fortalecer un quehacer docente más coherente y efectivo. Destaca la necesidad de incorporar rutinas de inicio más estructuradas y diseñar apoyos para estudiantes con dificultades lectoras como acción concre"
+        ],
+        "CE5": [
+          "La reflexión docente, según Perrenoud (2004) sostiene que la práctica pedagógica mejora cuando el profesor es capaz de analizar críticamente sus decisiones, regular su acción y aprender desde la experiencia. Bajo este marco, la siguiente reflexión surge a partir de la implementac",
+          "La experiencia analizada corresponde a la implementación de la primera sesión de la secuencia didáctica. El propósito central de la clase fue que los estudiantes comprendieran los elementos fundamentales del género dramático mediante la lectura guiada del texto “El viajero del ti",
+          "Secuencia didáctica24"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV maría Paz Ramírez.docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio Docente PPIV maría Paz Ramírez.docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "maría Paz Ramírez",
+      "total_parrafos": 182,
+      "total_palabras": 4736,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio docente corresponde a la Práctica Pedagógica Profesional IV y tiene como propósito analizar el quehacer docente en un contexto escolar real, evidenciando las competencias profesionales desarrolladas dentro y fuera del aula. El documento recopila experiencias, decisiones pedagó",
+      "extracto_reflexion": "La planificación elaborada responde a la problemática identificada en el establecimiento, la cual fue “abordar el eje de patrones y álgebra debido al bajo porcentaje de respuestas correctas que se obtuvo en este en los resultados de la prueba DIA”. Al ver los porcentajes de los otros ejes (como el eje de números o el eje de geometría) me di cuenta de que el eje de patrones y álgebra estaba descend",
+      "evidencias_competencias": {
+        "CG1": [
+          "Como crítica a mi propia secuencia, si bien estas actividades como el uso de pizarras con ruletas interactivas o la elaboración de pulseras que apuntan a que los estudiantes tengan una participación alta o se sientan motivados al adquirir conocimiento nuevo debió haber asegurado ",
+          "Los estándares disciplinares y didácticos estuvieron presentes en la elaboración de esta secuencia, ya que por ejemplo se incorporó el estándar didáctico número ocho “el tránsito desde la aritmética a lo algebraico”, ya que las clases empezaron desde los patrones geométricos que ",
+          "La secuencia presentada en este portafolio fue una instancia de aprendizaje y errores. La oportunidad de poder intervenir para influir en mejorar una variable y planificar de acuerdo a este objetivo es enriquecedora para la formación profesional docente. Si bien, existen cosas qu"
+        ],
+        "CG2": [
+          "Como crítica a mi propia secuencia, si bien estas actividades como el uso de pizarras con ruletas interactivas o la elaboración de pulseras que apuntan a que los estudiantes tengan una participación alta o se sientan motivados al adquirir conocimiento nuevo debió haber asegurado "
+        ],
+        "CG3": [],
+        "CE1": [
+          "Los estándares disciplinares y didácticos estuvieron presentes en la elaboración de esta secuencia, ya que por ejemplo se incorporó el estándar didáctico número ocho “el tránsito desde la aritmética a lo algebraico”, ya que las clases empezaron desde los patrones geométricos que ",
+          "Para concluir, desde el punto de vista profesional, esta experiencia es fundamental para comprender la influencia de un diseño didáctico articulado para un propósito específico y el error como oportunidad de aprendizaje. Los aspectos a mantener que destaco son la inclusión de act"
+        ],
+        "CE2": [
+          "La planificación elaborada responde a la problemática identificada en el establecimiento, la cual fue “abordar el eje de patrones y álgebra debido al bajo porcentaje de respuestas correctas que se obtuvo en este en los resultados de la prueba DIA”. Al ver los porcentajes de los o",
+          "Los estándares disciplinares y didácticos estuvieron presentes en la elaboración de esta secuencia, ya que por ejemplo se incorporó el estándar didáctico número ocho “el tránsito desde la aritmética a lo algebraico”, ya que las clases empezaron desde los patrones geométricos que ",
+          "Como recomendaciones futuras para volver a aplicar esta secuencia, si bien seguiría manteniendo la elaboración de la pulsera, ya que esto fomenta distintas habilidades en el alumnado lo completaría con una evaluación formativa que le dé un cierre al contenido y así evidenciar el "
+        ],
+        "CE3": [
+          "Los estándares disciplinares y didácticos estuvieron presentes en la elaboración de esta secuencia, ya que por ejemplo se incorporó el estándar didáctico número ocho “el tránsito desde la aritmética a lo algebraico”, ya que las clases empezaron desde los patrones geométricos que ",
+          "Como recomendaciones futuras para volver a aplicar esta secuencia, si bien seguiría manteniendo la elaboración de la pulsera, ya que esto fomenta distintas habilidades en el alumnado lo completaría con una evaluación formativa que le dé un cierre al contenido y así evidenciar el ",
+          "La secuencia presentada en este portafolio fue una instancia de aprendizaje y errores. La oportunidad de poder intervenir para influir en mejorar una variable y planificar de acuerdo a este objetivo es enriquecedora para la formación profesional docente. Si bien, existen cosas qu"
+        ],
+        "CE4": [],
+        "CE5": [
+          "La planificación elaborada responde a la problemática identificada en el establecimiento, la cual fue “abordar el eje de patrones y álgebra debido al bajo porcentaje de respuestas correctas que se obtuvo en este en los resultados de la prueba DIA”. Al ver los porcentajes de los o",
+          "La secuencia diseñada presenta una progresión de los contenidos matemáticos. En la clase uno se busca que los estudiantes comprendan lo que es una secuencia o un patrón para sentar las bases para lo que se enseñará en clases posteriores a esta. Los estudiantes identificaron las r",
+          "Como crítica a mi propia secuencia, si bien estas actividades como el uso de pizarras con ruletas interactivas o la elaboración de pulseras que apuntan a que los estudiantes tengan una participación alta o se sientan motivados al adquirir conocimiento nuevo debió haber asegurado "
+        ]
+      }
+    },
+    {
+      "archivo": "PORTAFOLIO DOCENTE_HITO_II_NADINNE_RECABARREN_P.P.IV.docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/PORTAFOLIO DOCENTE_HITO_II_NADINNE_RECABARREN_P.P.IV.docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "PORTAFOLIO DOCENTE_HITO_II_NADINNE_RECABARREN_P.P.IV",
+      "total_parrafos": 135,
+      "total_palabras": 2561,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente Portafolio Docente reúne el proceso de análisis, planificación, implementación y reflexión desarrollado durante la Práctica Pedagógica IV en el curso 4° básico B del Liceo Técnico Profesional Bicentenario Jorge Sánchez Ugarte. Su propósito es documentar de manera sistemática las competen",
+      "extracto_reflexion": "La implementación de la secuencia didáctica permitió que como docente en formación se debe reconocer que, pese a haber planificado cuidadosamente y basado la propuesta en principios teóricos sólidos, la práctica no se desarrolló tal cual se esperaba. La principal dificultad surgió en la gestión del tiempo, pues los estudiantes necesitaron más minutos de los previstos para resolver las actividades,",
+      "evidencias_competencias": {
+        "CG1": [
+          "La participación en la pizarra promovió el aprendizaje entre pares, aunque generó timidez en algunos estudiantes, lo que llevó a reconocer la necesidad de diversificar las formas de participación y asegurar espacios emocionalmente seguros. En coherencia con la teoría revisada, la",
+          "La experiencia evidenció que el aprendizaje significativo se potencia cuando se reconoce y valida la dimensión emocional del estudiantado. La incorporación de momentos de calma, el uso de material concreto y las instancias de interacción social redujeron la ansiedad y permitieron"
+        ],
+        "CG2": [],
+        "CG3": [
+          "Acción: Inscribirse en cursos o diplomados asociados al Método Singapur, COPISI u otras propuestas didácticas centradas en el pensamiento matemático, con el fin de profundizar la transición rigurosa desde lo concreto hacia lo abstracto."
+        ],
+        "CE1": [
+          "En cuanto a las decisiones didácticas, la secuencia integró elementos del enfoque socioconstructivista mediante el uso de preguntas guía, trabajo colaborativo y momentos de metacognición. También incluyó un momento inicial de calma y coloreo que favoreció un ambiente emocionalmen",
+          "La participación en la pizarra promovió el aprendizaje entre pares, aunque generó timidez en algunos estudiantes, lo que llevó a reconocer la necesidad de diversificar las formas de participación y asegurar espacios emocionalmente seguros. En coherencia con la teoría revisada, la",
+          "Un desafío crítico a fortalecer es la gestión de la heterogeneidad extrema dentro del aula. Si bien el Diseño Universal de Aprendizaje (DUA) facilitó el acceso, aún es necesario avanzar hacia una enseñanza multinivel real: ofrecer desafíos de mayor complejidad cognitiva a quienes"
+        ],
+        "CE2": [
+          "Meta: Perfeccionar el diseño de instrumentos de evaluación auténtica.",
+          "Acción: Elaborar y pilotear un banco de rúbricas y listas de cotejo orientadas a evaluar procesos, habilidades y pensamiento matemático, en coherencia con los principios del Decreto 67."
+        ],
+        "CE3": [
+          "Al incorporarse al 4° Básico B, como docente en formación se encontró con la realidad de un curso afectuoso y dispuesto a aprender, pero con brechas instrumentales profundas derivadas de un contexto escolar vulnerable. Estas brechas dificultaban evidenciar plenamente las capacida"
+        ],
+        "CE4": [
+          "Durante la implementación de la secuencia, se hizo evidente que la principal dificultad del curso no era matemática, sino comunicativa. En Educación Básica no se enseñan asignaturas aisladas: se enseñan lenguajes. El progreso de los estudiantes no dependía de la cantidad de ejerc"
+        ],
+        "CE5": [
+          "La implementación de la secuencia didáctica permitió que como docente en formación se debe reconocer que, pese a haber planificado cuidadosamente y basado la propuesta en principios teóricos sólidos, la práctica no se desarrolló tal cual se esperaba. La principal dificultad surgi",
+          "Durante la aplicación, se observó que muchas de las dificultades no se relacionaban directamente con el contenido matemático, sino con la comprensión lectora de los enunciados. Esta constatación reafirmó la relevancia del lenguaje en el razonamiento matemático y la necesidad de f",
+          "En cuanto a las decisiones didácticas, la secuencia integró elementos del enfoque socioconstructivista mediante el uso de preguntas guía, trabajo colaborativo y momentos de metacognición. También incluyó un momento inicial de calma y coloreo que favoreció un ambiente emocionalmen"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV final Rodrigo Santos.docx",
+      "ruta_relativa": "María Angélica Uribe Lara (PIV Matemáticas)/Portafolio Docente PPIV final Rodrigo Santos.docx",
+      "profesor_seccion": "María Angélica Uribe Lara (PIV Matemáticas)",
+      "estudiante_detectado": "final Rodrigo Santos",
+      "total_parrafos": 122,
+      "total_palabras": 4974,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El portafolio profesional tiene como propósito servir como instrumento de evaluación y reflexión sobre el quehacer docente, permitiendo evidenciar competencias desarrolladas tanto dentro como fuera del aula. A través de él se registran experiencias de planificación, implementación y monitoreo de est",
+      "extracto_reflexion": "Relación entre los principios teóricos y el diseño de la secuencia didáctica Al diseñar la secuencia didáctica, los principios teóricos que utilicé basados en el constructivismo, el aprendizaje significativo, el enfoque indagatorio y la educación inclusiva se reflejaron de manera directa y coherente en la toma de decisiones de las actividades planificadas en el diseño. Desde el enfoque constructiv",
+      "evidencias_competencias": {
+        "CG1": [
+          "También pude observar que no todos los estudiantes tenían la seguridad o confianza para comunicar al final de la clase lo que habían realizado o aprendido, la falta de confianza afectó la socialización de los resultados y limitó la participación en el diálogo científico, reveland"
+        ],
+        "CG2": [
+          "Durante el diseño de la secuencia, las decisiones orientadas al Estándar 5 se desarrollaron considerando que el aula ya estaba organizada con roles asignados y trabajo en grupos, lo que facilitó fomentar relaciones constructivas, la comunicación respetuosa y la resolución conjunt"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Al trabajar con niños de edades entre 8 y 9 años fui inclusivo al crear material didáctico considerando la diversidad del aula, entregando recursos visuales atractivos, realizando trabajo colaborativo en todas las clases y realizando preguntas que permitieran múltiples formas de ",
+          "Asimismo, integré una diversidad de recursos (imágenes, videos, materiales concretos y explicaciones orales) que facilitaron múltiples formas de aprender.",
+          "Para atender la diversidad, incorporé apoyos visuales, roles diferenciados en los grupos (previamente asignados por la profesora colaboradora), tiempos flexibles y traté de integrar preguntas de distintos niveles cognitivos."
+        ],
+        "CE2": [
+          "Desde el enfoque constructivista, se rescata principalmente que los estudiantes construyen su propio conocimiento a partir de sus experiencias previas, por esta razón inicié la secuencia con actividades de activación de conocimientos, con instrumentos que reflejaran sobre lo que ",
+          "Finalmente, se emplearon preguntas y tickets de salida para fomentar el pensamiento reflexivo y la evaluación formativa, permitiendo que los estudiantes verbalizaran o representaran lo aprendido según sus capacidades.",
+          "Esta autocrítica me permitió darme cuenta de que debo fortalecer la integración de estrategias específicas para estudiantes con necesidades educativas especiales, ampliar las actividades para conectar los contenidos con el entorno local o cultural y diversificar las evaluaciones "
+        ],
+        "CE3": [
+          "Desde el enfoque constructivista, estas situaciones no solo evidenciaron las diferencias del curso, sino que también reafirmaron la importancia de diseñar experiencias donde los estudiantes actúen activamente relacionándose entre sí y fortaleciendo el desarrollo de la confianza p",
+          "Análisis crítico de las decisiones didácticas tomadas",
+          "Durante mi práctica docente en el curso 3°B del Colegio Básico Nueva Los Lobos, pude observar que los estudiantes presentaban dificultades en la convivencia y en la organización de su trabajo. Las interrupciones frecuentes, la escasa participación en plenarios y los hábitos de es"
+        ],
+        "CE4": [
+          "En conclusión, esta práctica me permitió consolidar mi identidad como docente, comprendiendo que enseñar implica no solo transmitir contenidos, sino también generar un ambiente seguro, inclusivo y motivador. Aprendí que la planificación reflexiva, adaptada al contexto y a las nec"
+        ],
+        "CE5": [
+          "Relación entre los principios teóricos y el diseño de la secuencia didáctica",
+          "Al diseñar la secuencia didáctica, los principios teóricos que utilicé basados en el constructivismo, el aprendizaje significativo, el enfoque indagatorio y la educación inclusiva se reflejaron de manera directa y coherente en la toma de decisiones de las actividades planificadas",
+          "Análisis crítico de las decisiones didácticas tomadas"
+        ]
+      }
+    },
+    {
+      "archivo": "PAUTA DE COTEJO RA1 TAREA2.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA1/PAUTA DE COTEJO RA1 TAREA2.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "PAUTA DE COTEJO RA1 TAREA2",
+      "total_parrafos": 30,
+      "total_palabras": 264,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Pauta_Evaluacion_Tarea1_Comunidad_Escolar.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA1/Pauta_Evaluacion_Tarea1_Comunidad_Escolar.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Pauta_Evaluacion_Tarea1_Comunidad_Escolar",
+      "total_parrafos": 42,
+      "total_palabras": 801,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "RA1, TAREA 2 (2) final (1).docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA1/RA1, TAREA 2 (2) final (1).docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "RA1, TAREA 2 (2) final (1)",
+      "total_parrafos": 53,
+      "total_palabras": 174,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Tarea 1-1. Conociendo mi comunidad escolar- establecimiento y curso sin pauta.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA1/Tarea 1-1. Conociendo mi comunidad escolar- establecimiento y curso sin pauta.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Tarea 1-1. Conociendo mi comunidad escolar- establecimiento y curso sin pauta",
+      "total_parrafos": 173,
+      "total_palabras": 1202,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "conclusiones",
+        "bibliografia"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Rúbrica Analítica para la Evaluación de la Planificación Docente.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA2/Rúbrica Analítica para la Evaluación de la Planificación Docente.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Rúbrica Analítica para la Evaluación de la Planificación Docente",
+      "total_parrafos": 67,
+      "total_palabras": 693,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Tarea 3_RA2_ ajustado.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA2/Tarea 3_RA2_ ajustado.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Tarea 3_RA2_ ajustado",
+      "total_parrafos": 65,
+      "total_palabras": 640,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "RA2_ T3.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA2/RA2_ T3.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "RA2_ T3",
+      "total_parrafos": 58,
+      "total_palabras": 561,
+      "secciones_detectadas": [
+        "portada",
+        "secuencia_didactica"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Formato de planificacion.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA2/Formato de planificacion.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Formato de planificacion",
+      "total_parrafos": 34,
+      "total_palabras": 148,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Rúbrica Presentación.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA3/Rúbrica Presentación.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Rúbrica Presentación",
+      "total_parrafos": 56,
+      "total_palabras": 849,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "archivo": "Rúbrica Analítica del Portafolio Docente.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA3/Rúbrica Analítica del Portafolio Docente.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Rúbrica Analítica del",
+      "total_parrafos": 49,
+      "total_palabras": 765,
+      "secciones_detectadas": [
+        "portada",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "diagnostico",
+        "situacion_observada",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "conclusiones",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Breve descripción que incluye el propósito del portafolio, principales evidencias en el centro de práctica y todas las competencias demostradas (dentro y fuera del aula). Describe el propósito y evidencias, pero omite o aborda superficialmente las competencias demostradas5. El resumen es inadecuado,",
+      "extracto_reflexion": "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los aprendizajes clave de la didáctica específica y el impacto en su visión como futuro docente. Incluye la retroalimentación del",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [
+          "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los apren",
+          "Cumple con la mayoría de los puntos, pero el análisis es más descriptivo que crítico, o falta la evidencia para respaldar la reflexión363636363636363636.",
+          "Ausencia de análisis crítico, falta de evidencia de los aprendizajes logrados o no se aborda la relación teoría-práctica ni la didáctica específica."
+        ],
+        "CE4": [],
+        "CE5": [
+          "Incluye evidencias concretas que respaldan cada punto. Realiza un análisis crítico de las decisiones didácticas, justificando el por qué y cómo contribuyen a los OA. Discute la relación teoría-práctica. Anticipa dificultades con propuestas de ajustes33. Reflexiona sobre los apren",
+          "Ausencia de análisis crítico, falta de evidencia de los aprendizajes logrados o no se aborda la relación teoría-práctica ni la didáctica específica."
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV.docx",
+      "ruta_relativa": "Resultados de Aprendizaje/RA3/Portafolio Docente PPIV.docx",
+      "profesor_seccion": "Resultados de Aprendizaje",
+      "estudiante_detectado": "Estudiante Práctica IV",
+      "total_parrafos": 111,
+      "total_palabras": 1115,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Breve descripción del propósito del portafolio profesional como instrumento que permite evaluar diferentes aspectos del quehacer de los docentes, tanto dentro como fuera del aula, principales evidencias en su centro de práctica y competencias demostradas en su quehacer.",
+      "extracto_reflexion": "Incluir evidencias concretas que respalden cada punto reflexivo, como resultados de evaluaciones, observaciones y retroalimentación y relacionar la reflexión con teorías pedagógicas y marcos de referencia para reforzar el análisis crítico (estándares pedagógicos y/o referentes teóricos) Qué registrar ¿Cómo los principios teóricos establecidos se vieron reflejados (o no) en el diseño de la secuenci",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [
+          "Anticipación de posibles dificultades que podrían surgir durante la implementación de la clase (ej. manejo de la diversidad, tiempo, recursos, interés de los estudiantes)."
+        ],
+        "CE2": [],
+        "CE3": [
+          "Incluir evidencias concretas que respalden cada punto reflexivo, como resultados de evaluaciones, observaciones y retroalimentación y relacionar la reflexión con teorías pedagógicas y marcos de referencia para reforzar el análisis crítico (estándares pedagógicos y/o referentes te",
+          "Análisis crítico de las decisiones didácticas para un buen ambiente para el aprendizaje tomadas en la clase a implementar (ej. elección de la actividad de inicio, tipo de recursos, preguntas guía, ticket de salida). ¿Por qué se tomaron esas decisiones y cómo contribuyen al aprend",
+          "Evidencia de los aprendizajes logrados en sus estudiantes mediante la implementación de la secuencia didáctica ¿Qué alternativas se consideraron y por qué se descartaron?"
+        ],
+        "CE4": [
+          "Realizar una reflexión crítica y estructurada sobre la práctica docente, resultados obtenidos, estrategias interdisciplinarias, y planificar el desarrollo profesional futuro. ¿Qué he aprendido como docente a partir de esta experiencia?¿Qué aspectos de mi práctica debo mantener y "
+        ],
+        "CE5": [
+          "¿Cómo los principios teóricos establecidos se vieron reflejados (o no) en el diseño de la secuencia didáctica? ¿Qué desafíos surgieron al intentar traducir la teoría a la práctica en el diseño?",
+          "Análisis crítico de las decisiones didácticas para un buen ambiente para el aprendizaje tomadas en la clase a implementar (ej. elección de la actividad de inicio, tipo de recursos, preguntas guía, ticket de salida). ¿Por qué se tomaron esas decisiones y cómo contribuyen al aprend",
+          "Evidencia de los aprendizajes logrados en sus estudiantes mediante la implementación de la secuencia didáctica ¿Qué alternativas se consideraron y por qué se descartaron?"
+        ]
+      }
+    },
+    {
+      "archivo": "Rodríguez, Jazmín Portafolio Docente.docx",
+      "ruta_relativa": "MARIA A. URIBE/Rodríguez, Jazmín Portafolio Docente.docx",
+      "profesor_seccion": "MARIA A. URIBE",
+      "estudiante_detectado": "Rodríguez, Jazmín",
+      "total_parrafos": 162,
+      "total_palabras": 4051,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio docente reúne la planificación, fundamentación teórica, análisis crítico y evidencias derivadas de la implementación de una clase de Lenguaje y Comunicación en un 5° básico, cuyo eje articulador fue el kamishibai como recurso motivador para la lectura. La propuesta se fundamen",
+      "extracto_reflexion": "A modo de reflexión la planificación de la secuencia evidencia una traducción concreta de los principios teóricos del constructivismo y del aprendizaje experiencial, aunque no logran observarse por completo en la única clase llevada a cabo en la intervención. El diseño de la secuencia se construyó sobre la premisa de que el aprendizaje ocurre cuando el estudiantado se involucra activamente en tare",
+      "evidencias_competencias": {
+        "CG1": [
+          "En relación con la participación de mi docente colaborador, contamos con una instancia de retroalimentación previa a la implementación de la clase, cuyos comentarios incorporé en el diseño. Luego de la sesión me sugirió dedicar más tiempo a la reflexión con los niños y niñas, esp",
+          "La experiencia desarrollada permitió comprender la importancia de fortalecer la motivación lectora mediante propuestas pedagógicas significativas, estéticas y emocionalmente positivas para las niñeces. En este proceso, el kamishibai se consolidó como un recurso valioso no solo pa"
+        ],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [
+          "En cuanto a la anticipación de dificultades, se proyectaron posibles obstáculos asociados al manejo del tiempo, la atención sostenida, el interés fluctuante y la diversidad de ritmos lectores. Para abordarlos, se diseñaron estrategias como la diversificación de actividades, el us",
+          "Desde la perspectiva de los estándares pedagógicos, la intervención se vincula con el Estándar 3, al evidenciar una planificación fundamentada y pertinente a las características del grupo, integrando recursos variados para promover aprendizajes significativos, tal como plantea Au",
+          "La práctica evidenció, además, la relevancia de disponer de tiempo suficiente para reflexionar con el estudiantado, reconociendo que el diálogo, las preguntas y el análisis compartido constituyen una parte esencial del proceso lector. En esta línea, el Diseño Universal para el Ap"
+        ],
+        "CE2": [
+          "En cuanto a la evidencia de aprendizaje, se observaron avances vinculados a la motivación, la atención durante la clase y la comprensión lectora a través de la participación oral y la capacidad de crear significados propios a partir del relato escuchado. La mayoría del estudianta",
+          "Sin embargo, en este punto resulta fundamental ejercer autocrítica, pues reconozco que faltó mayor rigurosidad en la elaboración del objetivo de la clase, de los indicadores y del instrumento de evaluación. Al momento de aplicarlo en la clase, su uso resultó complejo y finalmente",
+          "La práctica evidenció, además, la relevancia de disponer de tiempo suficiente para reflexionar con el estudiantado, reconociendo que el diálogo, las preguntas y el análisis compartido constituyen una parte esencial del proceso lector. En esta línea, el Diseño Universal para el Ap"
+        ],
+        "CE3": [
+          "A modo de reflexión la planificación de la secuencia evidencia una traducción concreta de los principios teóricos del constructivismo y del aprendizaje experiencial, aunque no logran observarse por completo en la única clase llevada a cabo en la intervención. El diseño de la secu",
+          "En cuanto a la evidencia de aprendizaje, se observaron avances vinculados a la motivación, la atención durante la clase y la comprensión lectora a través de la participación oral y la capacidad de crear significados propios a partir del relato escuchado. La mayoría del estudianta",
+          "Desde la perspectiva de los estándares pedagógicos, la intervención se vincula con el Estándar 3, al evidenciar una planificación fundamentada y pertinente a las características del grupo, integrando recursos variados para promover aprendizajes significativos, tal como plantea Au"
+        ],
+        "CE4": [
+          "Desde la perspectiva de los estándares pedagógicos, la intervención se vincula con el Estándar 3, al evidenciar una planificación fundamentada y pertinente a las características del grupo, integrando recursos variados para promover aprendizajes significativos, tal como plantea Au"
+        ],
+        "CE5": [
+          "Las decisiones didácticas tomadas durante la clase buscaron intencionalmente generar un ambiente propicio para el aprendizaje, sustentado tanto en criterios pedagógicos como en características observadas del curso. La activación corporal inicial favoreció la disposición atenciona",
+          "En cuanto a la evidencia de aprendizaje, se observaron avances vinculados a la motivación, la atención durante la clase y la comprensión lectora a través de la participación oral y la capacidad de crear significados propios a partir del relato escuchado. La mayoría del estudianta",
+          "Finalmente, esta experiencia fortaleció mi comprensión de la didáctica del lenguaje, especialmente en torno al valor de la lectura en voz alta, la importancia de integrar emoción y creación en el proceso lector, y el rol del docente como mediador de experiencias significativas. A"
+        ]
+      }
+    },
+    {
+      "archivo": "Valdés, Paulina-Portafolio Docente .docx",
+      "ruta_relativa": "MARIA A. URIBE/Valdés, Paulina-Portafolio Docente .docx",
+      "profesor_seccion": "MARIA A. URIBE",
+      "estudiante_detectado": "Valdés, Paulina",
+      "total_parrafos": 117,
+      "total_palabras": 4052,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio profesional tiene como propósito evidenciar el desarrollo de competencias pedagógicas alcanzadas durante mi Práctica Pedagógica IV, comprendiendo tanto el quehacer dentro del aula como las acciones realizadas en el centro educativo. Este documento se presenta como un instrumen",
+      "extracto_reflexion": "La secuencia didáctica que diseñé reflejó de manera concreta los principios teóricos que guiaron mi planificación, pero su implementación me permitió comprender que traducir la teoría a la práctica implica tomar decisiones flexibles, responder al ritmo real del curso y ajustar continuamente las estrategias. Desde el enfoque constructivista, quise que las estudiantes construyeran activamente su com",
+      "evidencias_competencias": {
+        "CG1": [
+          "Los principios del Diseño Universal para el Aprendizaje también estuvieron presentes en la clase mediante apoyos visuales, guía estructurada y diversas formas de expresión. Esto facilitó que estudiantes con mayor vulnerabilidad socioemocional o con menor dominio lector pudieran p",
+          "Durante mi Práctica Pedagógica IV enfrenté un contexto escolar caracterizado por altos niveles de vulnerabilidad social y un curso con necesidades específicas en comprensión lectora inferencial, autorregulación y convivencia escolar. Esta realidad se evidenció tanto en los result"
+        ],
+        "CG2": [
+          "La docente colaboradora valoró mi claridad en las instrucciones, el manejo del grupo y la pertinencia de las preguntas guía. Su recomendación de ampliar los instrumentos evaluativos y fortalecer la enseñanza de la inferencia me ofreció una orientación valiosa para continuar creci",
+          "A partir de esta experiencia, reconozco aprendizajes clave en el ámbito pedagógico y personal. Comprendí la importancia de un diagnóstico preciso, del modelamiento constante y de la mediación docente para el desarrollo de habilidades complejas. También confirmé la relevancia del "
+        ],
+        "CG3": [],
+        "CE1": [
+          "La secuencia didáctica que diseñé reflejó de manera concreta los principios teóricos que guiaron mi planificación, pero su implementación me permitió comprender que traducir la teoría a la práctica implica tomar decisiones flexibles, responder al ritmo real del curso y ajustar co",
+          "Las decisiones didácticas que tomé respondieron directamente al diagnóstico del curso. Inicié con una activación de conocimientos previos para conectar la experiencia personal con el texto, tal como proponen Díaz y Hernández (2010). Elegí el trabajo en parejas porque sabía que la",
+          "Las alternativas consideradas incluyeron trabajo individual y la lectura silenciosa, pero descarté ambas porque no respondían a las necesidades socioemocionales del curso ni favorecían la construcción conjunta de ideas. También consideré un organizador visual más extenso, pero lo"
+        ],
+        "CE2": [
+          "Las decisiones didácticas que tomé respondieron directamente al diagnóstico del curso. Inicié con una activación de conocimientos previos para conectar la experiencia personal con el texto, tal como proponen Díaz y Hernández (2010). Elegí el trabajo en parejas porque sabía que la",
+          "Antes de implementar la clase anticipé dificultades relacionadas con el manejo del tiempo, la diversidad de ritmos, la atención fluctuante y la posible dependencia entre compañeras. Todas estas dificultades se hicieron visibles. Para enfrentarlas utilicé instrucciones claras, tie",
+          "En el futuro deseo mejorar la gestión del tiempo, diversificar los instrumentos evaluativos y fortalecer el uso sistemático del DUA. Además, quiero profundizar en estrategias cooperativas y gamificadas, ya que observar su efecto positivo me motivó a seguir explorándolas."
+        ],
+        "CE3": [
+          "Las decisiones didácticas que tomé respondieron directamente al diagnóstico del curso. Inicié con una activación de conocimientos previos para conectar la experiencia personal con el texto, tal como proponen Díaz y Hernández (2010). Elegí el trabajo en parejas porque sabía que la",
+          "La evidencia recogida mostró avances importantes: la mayoría de las estudiantes logró identificar información explícita de manera adecuada y un grupo más reducido consiguió realizar inferencias simples. En las respuestas de la guía aplicada, se observó que las preguntas explícita",
+          "La práctica tuvo un impacto profundo en mi identidad docente. Me hizo ver que una buena planificación debe ir acompañada de flexibilidad, sensibilidad pedagógica y capacidad de respuesta inmediata. También reafirmó mi compromiso con una enseñanza inclusiva que considere las neces"
+        ],
+        "CE4": [
+          "A pesar de los avances, también identifiqué áreas que requieren mejora. Es necesario profundizar en la enseñanza explícita de la inferencia lectora, fortalecer la diversidad de instrumentos evaluativos, perfeccionar la gestión del tiempo y diseñar apoyos más específicos para la a"
+        ],
+        "CE5": [
+          "La secuencia didáctica que diseñé reflejó de manera concreta los principios teóricos que guiaron mi planificación, pero su implementación me permitió comprender que traducir la teoría a la práctica implica tomar decisiones flexibles, responder al ritmo real del curso y ajustar co",
+          "Las decisiones didácticas que tomé respondieron directamente al diagnóstico del curso. Inicié con una activación de conocimientos previos para conectar la experiencia personal con el texto, tal como proponen Díaz y Hernández (2010). Elegí el trabajo en parejas porque sabía que la",
+          "Esta experiencia me permitió comprender aprendizajes clave de la didáctica del Lenguaje, especialmente el rol del modelamiento en la comprensión lectora y la importancia de la lectura compartida como herramienta para enseñar inferencias. Confirmé que la comprensión no se enseña s"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV _ Alejandro Carrasco.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV _ Alejandro Carrasco.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Alejandro Carrasco",
+      "total_parrafos": 357,
+      "total_palabras": 8463,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El portafolio profesional es un instrumento de evaluación que permite recopilar, organizar y reflexionar sobre las evidencias del quehacer docente, con el propósito de demostrar el desarrollo progresivo de sus competencias profesionales establecidas en los Estándares de la profesión docente. A travé",
+      "extracto_reflexion": "Una de las labores mas importantes que los docentes deben realizar en el ejercicio de su profesión es la elaboración secuencias didácticas. Este proceso constituye un proceso altamente complejo donde convergen una serie de toma de decisiones pedagógicas, curriculares y didáctica. Además, deben responder a las demandas curriculares y a las particularidades de cada curso, desde la validación de los ",
+      "evidencias_competencias": {
+        "CG1": [
+          "Con respecto de la participación, también se promueve un ambiente respetuoso y organizado, ya que los estudiantes trabajan tanto en grupos conformados por afinidad como en grupos conformados al azar, con el fin de que puedan ir aprendiendo a trabajar con sus distintos pares, fort",
+          "Esta experiencia de práctica ha constituido un punto de inflexión en mi formación como docente. A través del diseño, implementación y evaluación de la secuencia didáctica, pude constatar que la planificación efectiva trasciende la mera organización de actividades: exige anticipar"
+        ],
+        "CG2": [
+          "Con respecto de la participación, también se promueve un ambiente respetuoso y organizado, ya que los estudiantes trabajan tanto en grupos conformados por afinidad como en grupos conformados al azar, con el fin de que puedan ir aprendiendo a trabajar con sus distintos pares, fort"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Una de las labores mas importantes que los docentes deben realizar en el ejercicio de su profesión es la elaboración secuencias didácticas. Este proceso constituye un proceso altamente complejo donde convergen una serie de toma de decisiones pedagógicas, curriculares y didáctica.",
+          "Asimismo, se consideran los principios del DUA en la planificación como ejes para favorecer la resolución de problemas. Las situaciones se presentan con lenguaje claro, utilizando diversos medios para facilitar su comprensión; los estudiantes pueden expresar sus respuestas de for",
+          "Con respecto de la participación, también se promueve un ambiente respetuoso y organizado, ya que los estudiantes trabajan tanto en grupos conformados por afinidad como en grupos conformados al azar, con el fin de que puedan ir aprendiendo a trabajar con sus distintos pares, fort"
+        ],
+        "CE2": [
+          "Con respecto el estándar disciplinar de la asignatura, los estudiantes fortalecen sus habilidades para utilizar instrumentos de medición como reglas, huinchas y cintas métricas, seleccionando el más adecuado según el objeto a medir. Asimismo, reconocen las distintas unidades del "
+        ],
+        "CE3": [
+          "Con respecto de la participación, también se promueve un ambiente respetuoso y organizado, ya que los estudiantes trabajan tanto en grupos conformados por afinidad como en grupos conformados al azar, con el fin de que puedan ir aprendiendo a trabajar con sus distintos pares, fort",
+          "La aplicación de la secuencia evidenció aciertos y desafíos relevantes para futuras implementaciones. Por un lado, las actividades lograron el nivel de motivación esperado, reflejado en la alta participación de los estudiantes. Sin embargo, el tiempo destinado fue insuficiente pa",
+          "Esta secuencia, si se hubiese implementado de manera completa y hubiese inspirado a innovar las prácticas dentro del aula, pudo haber evidenciado avances en el curso. No obstante, como no se hizo y se decidió seguir con la planificación elaborada por la profesora, los estudiantes"
+        ],
+        "CE4": [],
+        "CE5": [
+          "Una de las labores mas importantes que los docentes deben realizar en el ejercicio de su profesión es la elaboración secuencias didácticas. Este proceso constituye un proceso altamente complejo donde convergen una serie de toma de decisiones pedagógicas, curriculares y didáctica.",
+          "Dicho todo lo anterior, se diseñó una secuencia didáctica de tres clases para la asignatura de matemática, la cual fue implementada el 21 de octubre en el 5°B del Colegio La Providencia. Su propósito fue abordar el objetivo curricular de medición, focalizado en la comprensión de ",
+          "No obstante, y pese a la similitud en el uso de materiales, fue necesario distanciarse de la enseñanza tradicional a la que los estudiantes están acostumbrados. Las tareas, por tanto, pretendían sacar al estudiante de su zona de confort y fueran desafiados cognitivamente, invitán"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV _ Victor Santos.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV _ Victor Santos.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Victor Santos",
+      "total_parrafos": 295,
+      "total_palabras": 7088,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio documenta la intervención asociada al proyecto A+S durante la Práctica Pedagógica IV realizada en el Colegio La Providencia de Concepción, durante el segundo semestre escolar  de 2025. Su propósito principal es servir como instrumento de evaluación integral del quehacer docent",
+      "extracto_reflexion": "La planificación e implementación de la clase se construyó desde el paradigma constructivista, entendiendo el aprendizaje como un proceso activo donde los estudiantes elaboran significados mediante la interacción social, cognitiva y emocional. En coherencia con este enfoque, se aplicaron metodologías activas particularmente el Escape Room, que promovieron la motivación intrínseca y el aprendizaje ",
+      "evidencias_competencias": {
+        "CG1": [
+          "La planificación e implementación de la clase se construyó desde el paradigma constructivista, entendiendo el aprendizaje como un proceso activo donde los estudiantes elaboran significados mediante la interacción social, cognitiva y emocional. En coherencia con este enfoque, se a"
+        ],
+        "CG2": [
+          "Además, se integró un componente interdisciplinario con Lenguaje y Comunicación mediante la lectura de pistas narrativas, fortaleciendo la comprensión lectora y la reflexion dentro del contexto del Escape Room. Sin embargo, algunos estudiantes priorizaron los cálculos por sobre l"
+        ],
+        "CG3": [],
+        "CE1": [
+          "La implementación del Escape Room como metodología activa permitió observar tanto sus potencialidades como sus desafíos pedagógicos. Si bien esta estrategia favorece la motivación y el compromiso de los estudiantes, emergieron tensiones relacionadas con la gestión de la frustraci",
+          "En cuanto al Aprendizaje Cooperativo, la experiencia mostró la importancia de una gestión intencionada del grupo. La alta motivación inicial derivó en algunos casos en dispersión y desorden, lo cual hizo necesaria la aplicación de estrategias de regulación como el uso de un cronó",
+          "En relación con la selección de estrategias y recursos, siguiendo el Estándar 3, punto 3.3, se aplicaron metodologías activas de indagación y colaboración, mientras que según el Estándar 3, punto 3.4, se integraron recursos manipulativos y digitales (puzzles, textos encriptados, "
+        ],
+        "CE2": [
+          "En las proyecciones futuras, se identifican varios aspectos críticos de mejora. Primero, el manejo del tiempo resultó insuficiente en algunas estaciones, reduciendo el espacio para la reflexión final. Segundo, la articulación interdisciplinaria requiere mayor explicitación para q",
+          "Para responder a estos desafíos, se plantean acciones específicas. Respecto al tiempo, se propone desarrollar una versión digital del Escape Room que ofrezca retroalimentación inmediata y permita progresiones diferenciadas. Para el componente interdisciplinario, se sugiere integr",
+          "En cuanto al desarrollo profesional, esta experiencia fortaleció competencias esenciales: diseño de secuencias didácticas coherentes, selección de estrategias activas, mediación pedagógica, gestión del trabajo colaborativo y aplicación sistemática de evaluación formativa. Además,"
+        ],
+        "CE3": [
+          "La implementación del Escape Room como metodología activa permitió observar tanto sus potencialidades como sus desafíos pedagógicos. Si bien esta estrategia favorece la motivación y el compromiso de los estudiantes, emergieron tensiones relacionadas con la gestión de la frustraci",
+          "Desde la perspectiva disciplinar del eje de Patrones y Álgebra, la experiencia evidenció aprendizajes significativos. El/la docente en formación demostró dominio en el tránsito desde pensamiento aritmético a pensamiento algebraico mediante actividades centradas en identificar pat",
+          "Para responder a estos desafíos, se plantean acciones específicas. Respecto al tiempo, se propone desarrollar una versión digital del Escape Room que ofrezca retroalimentación inmediata y permita progresiones diferenciadas. Para el componente interdisciplinario, se sugiere integr"
+        ],
+        "CE4": [
+          "Además, se integró un componente interdisciplinario con Lenguaje y Comunicación mediante la lectura de pistas narrativas, fortaleciendo la comprensión lectora y la reflexion dentro del contexto del Escape Room. Sin embargo, algunos estudiantes priorizaron los cálculos por sobre l",
+          "En las proyecciones futuras, se identifican varios aspectos críticos de mejora. Primero, el manejo del tiempo resultó insuficiente en algunas estaciones, reduciendo el espacio para la reflexión final. Segundo, la articulación interdisciplinaria requiere mayor explicitación para q",
+          "Para responder a estos desafíos, se plantean acciones específicas. Respecto al tiempo, se propone desarrollar una versión digital del Escape Room que ofrezca retroalimentación inmediata y permita progresiones diferenciadas. Para el componente interdisciplinario, se sugiere integr"
+        ],
+        "CE5": [
+          "Además, se integró un componente interdisciplinario con Lenguaje y Comunicación mediante la lectura de pistas narrativas, fortaleciendo la comprensión lectora y la reflexion dentro del contexto del Escape Room. Sin embargo, algunos estudiantes priorizaron los cálculos por sobre l",
+          "Para responder a estos desafíos, se plantean acciones específicas. Respecto al tiempo, se propone desarrollar una versión digital del Escape Room que ofrezca retroalimentación inmediata y permita progresiones diferenciadas. Para el componente interdisciplinario, se sugiere integr",
+          "En cuanto al desarrollo profesional, esta experiencia fortaleció competencias esenciales: diseño de secuencias didácticas coherentes, selección de estrategias activas, mediación pedagógica, gestión del trabajo colaborativo y aplicación sistemática de evaluación formativa. Además,"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV - CRESPO TABITA.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV - CRESPO TABITA.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "CRESPO TABITA",
+      "total_parrafos": 568,
+      "total_palabras": 15106,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio tiene como propósito evaluar de manera integral mi quehacer docente durante la Práctica Pedagógica IV, permitiendo analizar los avances, aprendizajes y desafíos tanto dentro como fuera del aula. En él se presentan las principales evidencias recopiladas en el centro de práctica",
+      "extracto_reflexion": "Al momento de planificar mi secuencia didáctica, lo primero que realicé fue un monitoreo previo del grupo curso, observando y analizando en qué actividades mostraban mayor participación, cuáles los motivaban más y qué estrategias favorecían su aprendizaje. Este análisis lo llevé a cabo antes de la implementación, con el fin de que las decisiones pedagógicas estuvieran realmente alineadas con las n",
+      "evidencias_competencias": {
+        "CG1": [
+          "Las decisiones pedagógicas previamente descritas se vinculan directamente con el Estándar 5, específicamente en sus focos de promoción de un ambiente para la buena convivencia y de gestión de un ambiente organizado, centrados en los indicadores 5.3, 5.4, 5.6 y 5.7. En relación co"
+        ],
+        "CG2": [
+          "Asimismo, la indagación científica se operacionalizó mediante un ciclo de preguntas, análisis y comunicación de hallazgos, en coherencia con lo planteado por Mineduc (2017), citando a National Research Council, al señalar que “La indagación científica en sí como una “estrategia d",
+          "Pese a ello, esta situación no me genera frustración; por el contrario, me motiva a buscar y diseñar estrategias que me permitan optimizar la gestión del tiempo, especialmente para asegurar el desarrollo del cierre de la clase. Considero fundamental ofrecer una experiencia de apr",
+          "Cada elección didáctica tuvo un impacto concreto en los aprendizajes de los estudiantes. Por ejemplo, al implementar la actividad experimental sobre tiempo atmosférico, observé que los estudiantes no solo aplicaban conceptos, sino que también desarrollaban habilidades de observac"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Pese a ello, esta situación no me genera frustración; por el contrario, me motiva a buscar y diseñar estrategias que me permitan optimizar la gestión del tiempo, especialmente para asegurar el desarrollo del cierre de la clase. Considero fundamental ofrecer una experiencia de apr",
+          "Constantemente analizaba qué los motivaba más y qué estrategias favorecían su comprensión, consideré especialmente a los estudiantes con necesidades educativas especiales. Observé qué actividades resultaban más significativas para ellos y ajusté los recursos en función de sus car",
+          "La dificultad especifica no estuvo en la actividad en sí, sino que el curso no tenía desarrollada la habilidad del trabajo en grupo, ya que, la mayor parte del tiempo el trabajo era individual, por lo que, al momento de implementar la actividad grupal, se generó un poco de caos y"
+        ],
+        "CE2": [
+          "En coherencia con este estándar, mis decisiones didácticas se fundamentaron en este análisis previo, en la consideración de sus intereses, modos de aprendizaje, necesidades específicas, etc. Cabe destacar que la elección de las actividades fue totalmente intencionada, favoreciend",
+          "A lo largo de la secuencia se incorporaron juegos digitales como activación de conocimientos previos, dada la alta motivación que generan, y también se utilizó material audiovisual, considerando que varios estudiantes comprendían mejor los contenidos cuando se presentaban de form",
+          "El indicador 3.4 destaca la importancia de realizar actividades desafiantes y efectivas para los estudiantes, promoviendo un aprendizaje profundo, usando diversos recursos y plataformas tecnológicas, potenciando así el proceso de aprendizaje, esto se vio reflejado en las activida"
+        ],
+        "CE3": [
+          "Al momento de planificar mi secuencia didáctica, lo primero que realicé fue un monitoreo previo del grupo curso, observando y analizando en qué actividades mostraban mayor participación, cuáles los motivaban más y qué estrategias favorecían su aprendizaje. Este análisis lo llevé ",
+          "Al momento de implementar mi primera clase, observé que el tiempo se convirtió en un factor desafiante. Si bien es sabido que, a pesar de una planificación cuidadosa y del esfuerzo por cumplir cada etapa, no siempre es posible ajustarse completamente a los tiempos establecidos, e",
+          "Cada elección didáctica tuvo un impacto concreto en los aprendizajes de los estudiantes. Por ejemplo, al implementar la actividad experimental sobre tiempo atmosférico, observé que los estudiantes no solo aplicaban conceptos, sino que también desarrollaban habilidades de observac"
+        ],
+        "CE4": [
+          "Durante la Práctica Pedagógica IV me enfrenté a una situación concreta en el curso de 2° Básico: si bien los estudiantes participaban con entusiasmo, presentaban dificultades para interpretar información y relacionar ideas a partir de imágenes, textos breves y situaciones cercana",
+          "El desafío detectado se originó en el diagnóstico inicial, sustentado en el análisis de los resultados DIA de Lenguaje y Comunicación, donde se evidenció un bajo nivel de logro en habilidades de interpretación y relación, especialmente en la comprensión de información presentada ",
+          "Asimismo, tomé conciencia del valor de la flexibilidad pedagógica: la importancia de ajustar estrategias, reorganizar actividades y modificar explicaciones según las reacciones e intereses del curso. Este proceso me permitió entender que la práctica docente exige una toma de deci"
+        ],
+        "CE5": [
+          "Al momento de planificar mi secuencia didáctica, lo primero que realicé fue un monitoreo previo del grupo curso, observando y analizando en qué actividades mostraban mayor participación, cuáles los motivaban más y qué estrategias favorecían su aprendizaje. Este análisis lo llevé ",
+          "En coherencia con este estándar, mis decisiones didácticas se fundamentaron en este análisis previo, en la consideración de sus intereses, modos de aprendizaje, necesidades específicas, etc. Cabe destacar que la elección de las actividades fue totalmente intencionada, favoreciend",
+          "A lo largo de la secuencia se incorporaron juegos digitales como activación de conocimientos previos, dada la alta motivación que generan, y también se utilizó material audiovisual, considerando que varios estudiantes comprendían mejor los contenidos cuando se presentaban de form"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV_F.Espinoza (1).docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV_F.Espinoza (1).docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "F.Espinoza (1)",
+      "total_parrafos": 464,
+      "total_palabras": 7897,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "bibliografia"
+      ],
+      "extracto_resumen": "El portafolio que se presenta es un medio para mostrar las competencias docentes alcanzadas en la Práctica Pedagógica IV. En este portafolio se recopilan experiencias, evidencias y reflexiones sobre el quehacer docente dentro y fuera del aula, desde el análisis del contexto institucional y el diagnó",
+      "extracto_reflexion": "Conexión teórica practica: El diseño de la secuencia didáctica se basa principalmente en el aprendizaje colaborativo, el cual según Castellanos (2018), este enfoque fomenta la creación colaborativa de conocimiento y estimula la empatía, el cual era el mayor reto dentro del curso, al tener estudiantes muy individualistas, por lo que tener una meta en común los animo a colaborar. En cuanto a las did",
+      "evidencias_competencias": {
+        "CG1": [
+          "Trabajo en grupos heterogéneos: se eligió esta metodología porque el curso presenta conductas competitivas. Esta metodología fomenta la colaboración, la responsabilidad y el aprendizaje social, elementos clave para avanzar hacia un ambiente equitativo y para asegurar que todos pu"
+        ],
+        "CG2": [
+          "Preguntas guiadas de metacognición: permiten que los estudiantes expresen ideas sin temor, favorecen la escucha activa y desarrollan una cultura de respeto por la opinión del otro."
+        ],
+        "CG3": [],
+        "CE1": [
+          "El diseño de la secuencia didáctica se basa principalmente en el aprendizaje colaborativo, el cual según Castellanos (2018), este enfoque fomenta la creación colaborativa de conocimiento y estimula la empatía, el cual era el mayor reto dentro del curso, al tener estudiantes muy i",
+          "Roles dentro del grupo si bien la actividad estaba pensada para promover el trabajo en equipo, era importante respetarla individualidad del curso, ya que un cambio rotundo en la metodología de trabajo podía generar conflicto, por lo cual aportar roles dentro del grupo ayudo a dis",
+          "El portafolio trata temas fundamentales para la enseñanza en la actualidad, como el trabajo interdisciplinario, el desarrollo socioemocional, la inclusión educativa y la búsqueda continua de métodos que favorezcan aprendizajes relevantes y situados. Además, se destaca la Relevanc"
+        ],
+        "CE2": [
+          "Evaluación continua mediante PaPER y escalas de apreciación: lo cual permite monitorear el proceso de enseñanza, dando importancia a la evaluación formativa, más que solo el producto final. Esto cumple con el énfasis del estándar en considerar la evidencia para orientar la enseña",
+          "Proyecciones para mi desarrollo profesional, puedo mencionar principalmente que esta secuencia didáctica me ayudo a desempeñar mis dos asignaturas de especialidad y las más “aburridas y difíciles” miradas desde el punto de vista estudiantil, por lo que poder crear y probar vincul",
+          "Con base en esta reflexión, diseñó un plan de desarrollo profesional que considera acciones específicas para continuar mejorando mi rendimiento profesional. Esta estrategia contempla: mejorar mis habilidades en métodos de investigación científica y análisis estadístico en los año"
+        ],
+        "CE3": [
+          "Evaluación continua mediante PaPER y escalas de apreciación: lo cual permite monitorear el proceso de enseñanza, dando importancia a la evaluación formativa, más que solo el producto final. Esto cumple con el énfasis del estándar en considerar la evidencia para orientar la enseña",
+          "Por otro lado, en la didáctica de las ciencias se tiene que la indagación estructurada permite que los estudiantes vivan un proceso científico real sin perder el foco, teniendo en cuenta que es un curso pequeño, las decisiones están orientadas a que observen, experimenten, expliq",
+          "Con base en esta reflexión, diseñó un plan de desarrollo profesional que considera acciones específicas para continuar mejorando mi rendimiento profesional. Esta estrategia contempla: mejorar mis habilidades en métodos de investigación científica y análisis estadístico en los año"
+        ],
+        "CE4": [
+          "El portafolio trata temas fundamentales para la enseñanza en la actualidad, como el trabajo interdisciplinario, el desarrollo socioemocional, la inclusión educativa y la búsqueda continua de métodos que favorezcan aprendizajes relevantes y situados. Además, se destaca la Relevanc"
+        ],
+        "CE5": [
+          "El diseño de la secuencia didáctica se basa principalmente en el aprendizaje colaborativo, el cual según Castellanos (2018), este enfoque fomenta la creación colaborativa de conocimiento y estimula la empatía, el cual era el mayor reto dentro del curso, al tener estudiantes muy i",
+          "En cuanto a las didácticas se presenta primeramente  la didáctica de las ciencias planteada en la clase 1 a través de la indagación estructurada, la cual posibilita el desarrollo de capacidades analíticas y exploratorias desde una edad temprana Reyes-Cárdenas (2012) habilidades n",
+          "En segundo lugar, se presenta la didáctica de las matemáticas centrada en la representación y análisis de datos presentada en la clase numero dos a través de la realización de la tabla, grafico y pictograma que debían reunir los datos obtenidos del experimento, como mencionan God"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV - Almonacid, J.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV - Almonacid, J.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Almonacid, J",
+      "total_parrafos": 294,
+      "total_palabras": 6155,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia"
+      ],
+      "extracto_resumen": "El presente portafolio docente, elaborado durante la Práctica Pedagógica IV, se concibe como un instrumento que permite evaluar diferentes aspectos del quehacer profesional del docente, tanto dentro como fuera del aula. Su propósito es evidenciar el proceso de análisis del contexto institucional, la",
+      "extracto_reflexion": "En la conexión de la teoría – práctica solo pude implementar la clase número 1 de la secuencia didáctica, en donde se trabajó en la disciplina de matemáticas, trabajando con el valor posicional y la importancia que este posee al momento de realizar adición o sustracción de números decimales hasta la milésima dentro de ejercicios matemáticos. Es por ello que se buscó activar conocimientos utilizand",
+      "evidencias_competencias": {
+        "CG1": [
+          "En la conexión de la teoría – práctica solo pude implementar la clase número 1 de la secuencia didáctica, en donde se trabajó en la disciplina de matemáticas, trabajando con el valor posicional y la importancia que este posee al momento de realizar adición o sustracción de número"
+        ],
+        "CG2": [
+          "En la conexión de la teoría – práctica solo pude implementar la clase número 1 de la secuencia didáctica, en donde se trabajó en la disciplina de matemáticas, trabajando con el valor posicional y la importancia que este posee al momento de realizar adición o sustracción de número",
+          "Preguntas guiadas",
+          "Estas actividades fueron seleccionadas con la intención de transitar a los estudiantes desde lo visual hacia algo más concreto, que fue la creación de enunciados matemáticos utilizando como eje la adición de decimales. Las preguntas guiadas para la activación de conocimientos pre"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Estas actividades fueron seleccionadas con la intención de transitar a los estudiantes desde lo visual hacia algo más concreto, que fue la creación de enunciados matemáticos utilizando como eje la adición de decimales. Las preguntas guiadas para la activación de conocimientos pre"
+        ],
+        "CE2": [],
+        "CE3": [
+          "Otro aprendizaje significativo fue confirmar que mis estudiantes entienden mejor cuando se utilizan ejemplos visuales, videos y ejercitación guiada. Este tipo de recursos facilita que puedan relacionar la teoría con procedimientos concretos, lo que refuerza la idea de que la ense",
+          "La elaboración de este portafolio permitió analizar de manera detallada el trabajo realizado durante la Práctica Pedagógica IV, evidenciando los aprendizajes obtenidos y las competencias desarrolladas en el contexto del centro de práctica. A través de la recopilación de evidencia",
+          "Un aspecto relevante que surgió durante este proceso fue la importancia de considerar la temporalidad dentro de la planificación. La implementación de la clase permitió evidenciar que, en ocasiones, el tiempo estimado no resulta suficiente para desarrollar todas las actividades p"
+        ],
+        "CE4": [],
+        "CE5": [
+          "En la conexión de la teoría – práctica solo pude implementar la clase número 1 de la secuencia didáctica, en donde se trabajó en la disciplina de matemáticas, trabajando con el valor posicional y la importancia que este posee al momento de realizar adición o sustracción de número",
+          "Los desafíos que se presentaron durante la implementación fueron más que nada la disposición de algunos estudiantes para realizar la clase, esto debido a que el establecimiento se encontraba realizando una actividad de disfraces por las alianzas y la gran mayoría del curso se enc",
+          "Las decisiones didácticas tomadas fueron las siguientes:"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Annais Paredes.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Annais Paredes.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Annais Paredes",
+      "total_parrafos": 302,
+      "total_palabras": 10401,
+      "secciones_detectadas": [
+        "portada",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "conclusiones",
+        "bibliografia",
+        "anexos",
+        "diagnostico",
+        "secuencia_didactica"
+      ],
+      "extracto_resumen": "El presente portafolio reúne el trabajo pedagógico desarrollado durante el año en el marco de la práctica profesional realizada en un curso de sexto básico conformado por 27 estudiantes con características diversas, ritmos distintos y necesidades académicas heterogéneas. El documento integra la plan",
+      "extracto_reflexion": "REFLEXIÓN DISCIPLINAR Esta secuencia de tres clases tuvo como propósito que los estudiantes de sexto básico resolvieran adiciones y sustracciones de fracciones propias, impropias y números mixtos con igual denominador en situaciones de la vida cotidiana. se buscó que cada estudiante pudiera comprender la fracción como una medida, interpretar el denominador como la cantidad de partes iguales y el n",
+      "evidencias_competencias": {
+        "CG1": [
+          "En el análisis de los resultados pude observar que las estrategias utilizadas tuvieron un impacto directo en el aprendizaje, en el ticket de salida 21 de los 27 estudiantes lograron resolver correctamente la tarea y esto representa un avance significativo considerando que el diag"
+        ],
+        "CG2": [
+          "en evaluación formativa se mantendrán instrumentos breves pero constantes, tickets de salida, listas de cotejo focalizadas, registros de observación y rúbricas sencillas centradas en procedimiento y explicación, se fortalecerá la autoevaluación y la coevaluación en lenguaje claro",
+          "Las conclusiones finales de mi práctica docente representan un proceso profundo de reflexión crítica donde pude analizar lo que viví en el aula y comprender con claridad cómo mis decisiones pedagógicas influyeron en el aprendizaje de los estudiantes, la experiencia estuvo marcada",
+          "La clase que implementé fue la clase de las pizzas donde utilicé material concreto, representaciones gráficas, términos pareados y un ticket de salida, esta clase se construyó respondiendo directamente a las necesidades del curso porque la manipulación de las pizzas permitía abor"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Esta secuencia de tres clases tuvo como propósito que los estudiantes de sexto básico resolvieran adiciones y sustracciones de fracciones propias, impropias y números mixtos con igual denominador en situaciones de la vida cotidiana. se buscó que cada estudiante pudiera comprender",
+          "la planificación de la secuencia se elaboró considerando el diseño universal para el aprendizaje, la progresión curricular del nivel y las características del curso, se buscó ofrecer múltiples formas de acceso al contenido mediante materiales concretos, imágenes, ejemplos context",
+          "en diferenciación se organizarán estaciones escalonadas para atender ritmos y niveles distintos, una estación de apoyo con plantillas paso a paso, material concreto y guía del docente, una estación de práctica estándar con ejercicios graduados y retroalimentación rápida, y una es"
+        ],
+        "CE2": [
+          "para dar continuidad real al aprendizaje logrado en la secuencia se proyectan rutas de acción organizadas en varias dimensiones que dialogan entre sí, integración disciplinar, diferenciación, evaluación formativa, uso de recursos y gestión del aula, cada línea se basa en la evide",
+          "en evaluación formativa se mantendrán instrumentos breves pero constantes, tickets de salida, listas de cotejo focalizadas, registros de observación y rúbricas sencillas centradas en procedimiento y explicación, se fortalecerá la autoevaluación y la coevaluación en lenguaje claro",
+          "En el reconocimiento de mis propios aprendizajes puedo decir que entendí que mi rol como docente no es entregar respuestas sino mediar procesos, acompañar y guiar el pensamiento de los estudiantes, la experiencia me mostró que cuando los estudiantes manipulan, explican y justific"
+        ],
+        "CE3": [
+          "esta secuencia disciplinar permitió evidenciar que los estudiantes avanzan cuando el proceso es guiado, progresivo y apoyado en múltiples representaciones. también mostró que la comprensión profunda requiere tiempo, retroalimentación constante y oportunidades para equivocarse sin",
+          "la evaluación fue continua y tuvo un carácter formativo, se utilizaron observaciones, listas de cotejo, conversaciones breves, tickets de salida y la guía final como instancia de integración, la retroalimentación se centró en estrategias, lenguaje y representación, lo que permiti",
+          "para dar continuidad real al aprendizaje logrado en la secuencia se proyectan rutas de acción organizadas en varias dimensiones que dialogan entre sí, integración disciplinar, diferenciación, evaluación formativa, uso de recursos y gestión del aula, cada línea se basa en la evide"
+        ],
+        "CE4": [
+          "la evaluación fue continua y tuvo un carácter formativo, se utilizaron observaciones, listas de cotejo, conversaciones breves, tickets de salida y la guía final como instancia de integración, la retroalimentación se centró en estrategias, lenguaje y representación, lo que permiti",
+          "En el análisis de los resultados pude observar que las estrategias utilizadas tuvieron un impacto directo en el aprendizaje, en el ticket de salida 21 de los 27 estudiantes lograron resolver correctamente la tarea y esto representa un avance significativo considerando que el diag",
+          "A partir de esta experiencia pude identificar aspectos de mi práctica que debo mantener y otros que necesito mejorar, debo mantener el uso de material concreto porque facilita el acceso al significado y reduce la confusión conceptual, también debo mantener la ruta concreto pictór"
+        ],
+        "CE5": [
+          "Esta secuencia de tres clases tuvo como propósito que los estudiantes de sexto básico resolvieran adiciones y sustracciones de fracciones propias, impropias y números mixtos con igual denominador en situaciones de la vida cotidiana. se buscó que cada estudiante pudiera comprender",
+          "la secuencia se inició con el uso de materiales concretos para reforzar la idea de unidad y de parte, lo cual fue necesario porque varios estudiantes confundían la operación con el símbolo mismo y cambiaban el denominador al sumar o restar, al manipular bandejas, fichas y rectas ",
+          "las actividades lúdicas como el bingo de fracciones y el memorice de equivalencias aportaron variedad y permitieron que los estudiantes practicaran con mayor motivación. estas actividades facilitaron la observación del progreso y la detección de dificultades persistentes como la "
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV_ Antonia Pinto.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV_ Antonia Pinto.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Antonia Pinto",
+      "total_parrafos": 309,
+      "total_palabras": 5700,
+      "secciones_detectadas": [
+        "portada",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "secuencia_didactica",
+        "reflexion_docente",
+        "conclusiones",
+        "bibliografia",
+        "anexos",
+        "diagnostico"
+      ],
+      "extracto_resumen": "Este portafolio profesional compila el proceso educativo llevado a cabo por la estudiante durante su Práctica Pedagógica IV en la Escuela Irene Frei de Cid. Su objetivo es mostrar el rendimiento del docente mediante la planificación, ejecución y análisis crítico de una experiencia auténtica en el au",
+      "extracto_reflexion": "Por ello tomaré el OA 3 siendo que en el marco teórico escogí el OA 1 pero ahora viendo mejor la concordancia opté por cambiarlo. Y también con respecto al tipo de evaluación en la tercera clase si bien es formativa utilizare un ticket de salida no una lista de cotejo o rúbrica. Durante el transcurso de la práctica lV se diseñó una secuencia de tres clases centradas en la adicción y sustracción ha",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [
+          "Como aprendizaje significativo fue comprender que la gestión del aula es importante como el contenido mismo. La estudiante tomo conciencia del valor de anticipar tiempos, organizar materiales, establecer normas claras. Además, el cambiar pequeños gestos como el tono de voz, el ac"
+        ],
+        "CG3": [
+          "Si hubiese implementado las tres clases sin restricciones a una clase estructurada la docente utilizaria más material concreto, explicaría con mayor profundidad el vocabulario matemático, se utilizaría recursos interactivos."
+        ],
+        "CE1": [
+          "Se considero el conductismo y el Diseño Universal de Aprendizaje (DUA) en la secuencia. Al realizar la clase 3, la estudiante en práctica pudo realizar parcialmente ambos enfoques. Desde la parte del conductismo, se aplicó lo que es instrucciones claras, pasos secuenciados, refue",
+          "Antes de implementar, la estudiante ya había observado algunas dificultades como la dispersión, los problemas de lectura, ser muy conversadores, el maneja del tiempo y la necesidad de apoyo a los estudiantes con NEE. Durante la clase ocurrieron dificultades, pero se resolvieron c",
+          "La Práctica Pedagógica lV represento para la estudiante un proceso de aprendizaje que trascendió los contenidos de la asignatura, permitiendo comprender de mejor manera lo que es ejercer la docencia en los contextos de hoy en día. Más allá de planificar e implementar una clase, p"
+        ],
+        "CE2": [
+          "Por ello tomaré el OA 3 siendo que en el marco teórico escogí el OA 1 pero ahora viendo mejor la concordancia opté por cambiarlo. Y también con respecto al tipo de evaluación en la tercera clase si bien es formativa utilizare un ticket de salida no una lista de cotejo o rúbrica. "
+        ],
+        "CE3": [
+          "Las decisiones didácticas tomadas respondieron directamente a las necesidades observadas en el curso y a lo que me comento en un principio la profesora colaboradora. La actividad de inicio con relación a la lectura de números fue breve para evitar la dispersión, el dictado fue re",
+          "Con respecto a la evidencia durante la clase al principio no lograron comprender en el dictado el problema matemático, pero en la guía que fue lo central de clase todos los estudiantes sabían lo que tenían que realizar con la ayuda de la docente cuando no comprendían que operació",
+          "Finalmente, la retroalimentación de la docente colaboradora fue fundamental para mi proceso durante el semestre en clases debido a que comento sobre el manejo de la clase era organizado, uso de refuerzo positivo, uso de tics para otras clases que realizo la docente en práctica, u"
+        ],
+        "CE4": [],
+        "CE5": [
+          "Las decisiones didácticas tomadas respondieron directamente a las necesidades observadas en el curso y a lo que me comento en un principio la profesora colaboradora. La actividad de inicio con relación a la lectura de números fue breve para evitar la dispersión, el dictado fue re",
+          "La experiencia dejo aprendizajes importantes desde la didáctica de la diciplina. Se comprendido que en las matemáticas el problema no es siempre la operación si no que el lenguaje, también sobre la importancia de tratar el error como una oportunidad de aprendizaje. A pesar de en "
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV - Roa, Gerardo.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente PPIV - Roa, Gerardo.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "Roa, Gerardo",
+      "total_parrafos": 366,
+      "total_palabras": 5545,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El portafolio profesional tiene como propósito principal el reunir y analizar todas las evidencias presentadas por el profesor en formación, las cuales permiten evaluar distintos aspectos del quehacer del docente tanto dentro como fuera del aula, dejando en evidencia las planificaciones, intervencio",
+      "extracto_reflexion": "Tras varias semanas asistiendo al centro de práctica Colegio El Refugio de Penco, es importante mencionar que la gran cantidad de estudiantes por sala es una dificultad tremenda al momento de realizar clases, más aún cuando no tenía la costumbre de tener esa cantidad de alumnos dentro del aula. A pesar de que fue grato el aprender a lidiar con un grupo numeroso de estudiantes (45-47 por sala) fue ",
+      "evidencias_competencias": {
+        "CG1": [
+          "Tras varias semanas asistiendo al centro de práctica Colegio El Refugio de Penco, es importante mencionar que la gran cantidad de estudiantes por sala es una dificultad tremenda al momento de realizar clases, más aún cuando no tenía la costumbre de tener esa cantidad de alumnos d",
+          "En segundo lugar, dado el alto número de estudiantes se decidió tomar un foco de un ambiente organizado, realizando gestiones adecuadas para los estudiantes. Por tanto, se buscó generar una actividad focalizada en la socialización y trabajo colaborativo, donde los estudiantes se "
+        ],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": [
+          "Otro aspecto importante es el error en la matemática, abarcándolo también al estándar disciplinar del área de geometría. Al momento de abarcar temas de medición lo concluyeron de manera grata, estableciendo medidas correctas cuando utilizaron el transportador, sin embargo, existi",
+          "Con esto en cuenta, el error en la matemática es algo sumamente importante, dado que puede ser una herramienta motivadora para próximas actividades, aplicando las estrategias necesarias para concluir la actividad con lo esperado. Por otra parte, también se vio favorecido en apren",
+          "Uno de los aspectos que más me gustaría mejorar al momento de realizar la implementación de una secuencia didáctica es la administración del tiempo, dado que fue un factor totalmente importante en la ejecución de la planificación. Normalmente tenía estimado unos 45-60 minutos por"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente IV_D.Vásquez.docx",
+      "ruta_relativa": "TAMARA LUNA/Portafolio Docente IV_D.Vásquez.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "IV_D.Vásquez",
+      "total_parrafos": 423,
+      "total_palabras": 7711,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio docente reúne el proceso de trabajo realizado durante la Práctica Pedagógica IV en un cuarto básico, evidenciando competencias profesionales relacionadas con la planificación, implementación, evaluación y reflexión critica de la enseñanza. En primer lugar, se presenta una cara",
+      "extracto_reflexion": "Reflexión pedagógica Diseñar esta secuencia didáctica fue un proceso desafiante, especialmente porque en un comienzo estaba planificando en torno al objetivo de aprendizaje 8, pero días antes de la implementación debí ajustarla al OA 10 por solicitud de la docente colaboradora. Esto significo modificar el enfoque teórico y las actividades, pasando desde la comparación de fracciones hacia su identi",
+      "evidencias_competencias": {
+        "CG1": [
+          "Otra mejora que implementaría en una versión ampliada de la secuencia es la incorporación de problemas contextualizados en la vida diaria: repartir alimentos, medir ingredientes, comparar porciones o situaciones propias del entorno escolar. Esto permitiría abordar explícitamente ",
+          "Finalmente, esta experiencia confirma que la formación docente es un proceso continuo, reflexivo y colaborativo. Enseñar Matemática no solo implica transmitir contenidos, sino también promover el pensamiento crítico, la participación activa, el respeto por los diversos ritmos y e"
+        ],
+        "CG2": [
+          "También quisiera fortalecer la retroalimentación individual. Si bien durante la secuencia utilicé observaciones, reflexiones orales y tickets de salida, autores como Anijovich (2010) plantean que la retroalimentación formativa orienta al estudiante hacia una mejora real, ya que l",
+          "Asimismo, me gustaría profundizar la integración con Lenguaje. Por ejemplo, pedir que los estudiantes redacten textos instructivos del tipo: “Explica paso a paso cómo representar 3/4 en una figura”. Esto fortalecería la comunicación matemática escrita, la capacidad de ordenar ide",
+          "También emergió la necesidad de continuar perfeccionando la retroalimentación individual, entendida como un proceso clave para que cada estudiante pueda reconocer con claridad sus avances, dificultades y próximos pasos para mejorar. Si bien el uso de tickets de salida, peguntas g"
+        ],
+        "CG3": [
+          "Este proceso confirmó que la progresión de Bruner no es lineal, sino flexible. En varias ocasiones algunos alumnos debieron volver a lo concreto para comprender, utilizando material visual o manipulativo antes de poder representar fracciones de manera simbólica. Esto reforzo la i",
+          "Asimismo, me gustaría profundizar la integración con Lenguaje. Por ejemplo, pedir que los estudiantes redacten textos instructivos del tipo: “Explica paso a paso cómo representar 3/4 en una figura”. Esto fortalecería la comunicación matemática escrita, la capacidad de ordenar ide"
+        ],
+        "CE1": [
+          "Un desafío importante fue la llegada inesperada de una estudiante con trastornos del espectro autista grado 2. A pesar de haber planificado con enfoque DUA, comprendí que la atención a la diversidad requiere ajustes permanentes y situados. Esto se relaciona con los Estándares Ped",
+          "La secuencia se articula con el Estándar A de Matemática, que plantea la necesidad de comprender las representaciones numéricas para construir aprendizajes profundos. En cuarto básico los estudiantes pasan de trabajar con números enteros a comprender la fracción como parte de un ",
+          "La inclusión de juegos tuvo efectos positivos: aumento la motivación, disminuyo el temor al error y permitió naturalizar el equivocarse como parte del aprendizaje. Incluso algunos estudiantes pidieron llevar los juegos a sus casas para poder continuar practicando, lo que evidenci"
+        ],
+        "CE2": [],
+        "CE3": [
+          "Si bien conté con poca retroalimentación formal por parte de mi docente guía debido a situaciones de salud y compromisos institucionales, una docente colaboradora presente en mi intervención destacó mi manejo del grupo curso, la participación lograda y el vínculo de confianza que",
+          "La inclusión de juegos tuvo efectos positivos: aumento la motivación, disminuyo el temor al error y permitió naturalizar el equivocarse como parte del aprendizaje. Incluso algunos estudiantes pidieron llevar los juegos a sus casas para poder continuar practicando, lo que evidenci",
+          "También quisiera fortalecer la retroalimentación individual. Si bien durante la secuencia utilicé observaciones, reflexiones orales y tickets de salida, autores como Anijovich (2010) plantean que la retroalimentación formativa orienta al estudiante hacia una mejora real, ya que l"
+        ],
+        "CE4": [
+          "También confirme el valor de la expresión oral como parte de la comprensión matemática. Cuando un estudiante decía “tres quintos del rectángulo están coloreados” en lugar de solo escribir 3/5, mostraba un razonamiento más elaborado. Preguntas como “¿Cómo identificaron la fracción",
+          "Finalmente, esta experiencia confirma que la formación docente es un proceso continuo, reflexivo y colaborativo. Enseñar Matemática no solo implica transmitir contenidos, sino también promover el pensamiento crítico, la participación activa, el respeto por los diversos ritmos y e"
+        ],
+        "CE5": [
+          "Diseñar esta secuencia didáctica fue un proceso desafiante, especialmente porque en un comienzo estaba planificando en torno al objetivo de aprendizaje 8, pero días antes de la implementación debí ajustarla al OA 10 por solicitud de la docente colaboradora. Esto significo modific",
+          "En la primera clase los estudiantes reconocieron numerador, denominador y la lectura de fracciones, apoyándose en material visual y posteriormente reforzando su comprensión a través del juego “Memorice de fracciones”. En la segunda clase, mediante la actividad “Detectives de frac",
+          "La integración con Lenguaje también respondió a una necesidad del curso, ya que el informe del Diagnóstico Integral de Aprendizajes mostraba dificultades de expresión oral y reflexión. Por ello incluí preguntas guías, plenarios y tickets de salida como “¿Cómo identificaron la fra"
+        ]
+      }
+    },
+    {
+      "archivo": "portafolio docente P IV. Daniela Olave.docx",
+      "ruta_relativa": "TAMARA LUNA/portafolio docente P IV. Daniela Olave.docx",
+      "profesor_seccion": "TAMARA LUNA",
+      "estudiante_detectado": "portafolio docente P IV. Daniela Olave",
+      "total_parrafos": 307,
+      "total_palabras": 6434,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio docente reúne los principales resultados de la Práctica Pedagógica Profesional realizada en un curso de 6° año básico compuesto por cuatro estudiantes. Incluye la caracterización del establecimiento educativo, del grupo curso y de los niveles de aprendizaje, integrando tanto e",
+      "extracto_reflexion": "El desarrollo de este portafolio me permitió comprender de manera más profunda la relación entre la teoría pedagógica, la planificación y la implementación real en el aula. Desde el inicio, la caracterización del curso de sexto básico un grupo pequeño de cuatro estudiantes con perfiles diversos, entre ellos un estudiante con TDAH y otra con discapacidad intelectual leve me exigió elaborar un diseñ",
+      "evidencias_competencias": {
+        "CG1": [
+          "En la planificación, los principios del marco conceptual no funcionaron como un mero referente teórico, sino como una guía concreta para la toma de decisiones. El aprendizaje significativo orientó la elección de actividades iniciales destinadas a activar conocimientos previos, en"
+        ],
+        "CG2": [
+          "Uno de los aprendizajes más significativos surgió del uso excesivo de recursos. En un intento por responder al DUA, utilicé video, presentación y texto en un tiempo muy acotado, lo que generó una clase más expositiva de lo planificado y redujo los espacios de interacción, análisi",
+          "Respecto al Estándar 5, la clase me permitió reflexionar sobre cómo las condiciones del ambiente, la convivencia y la organización influyen directamente en el aprendizaje. A pesar de los imprevistos, procuré sostener un clima emocionalmente seguro, explicar con claridad los cambi",
+          "La experiencia de diseñar e implementar la secuencia didáctica sobre los recursos naturales energéticos me permitió reconocer con claridad la complejidad del acto pedagógico y los múltiples factores que intervienen en el aprendizaje. En un curso pequeño y diverso, donde cada estu"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Uno de los aprendizajes más significativos surgió del uso excesivo de recursos. En un intento por responder al DUA, utilicé video, presentación y texto en un tiempo muy acotado, lo que generó una clase más expositiva de lo planificado y redujo los espacios de interacción, análisi",
+          "La experiencia de diseñar e implementar la secuencia didáctica sobre los recursos naturales energéticos me permitió reconocer con claridad la complejidad del acto pedagógico y los múltiples factores que intervienen en el aprendizaje. En un curso pequeño y diverso, donde cada estu",
+          "Uno de los aprendizajes más relevantes fue reconocer el riesgo de sobrecargar la clase con recursos diversos. En mi intento de responder al DUA, utilicé más materiales de los necesarios, lo que terminó limitando la interacción y disminuyendo el tiempo destinado a la reflexión. La"
+        ],
+        "CE2": [
+          "Diseño y uso de instrumentos de evaluación: Necesito mejorar la elaboración de evaluaciones formativas más claras, precisas y alineadas con los objetivos de aprendizaje, especialmente en lo referido a criterios observables y retroalimentación oportuna.",
+          "Mejorar mi competencia en evaluación formativa, aprendiendo a construir instrumentos claros, útiles y alineados con los OA."
+        ],
+        "CE3": [
+          "En cuanto a la participación y retroalimentación de mi docente colaboradora, su acompañamiento también se convirtió en un insumo valioso para mi reflexión. Al finalizar, se disculpó por las interrupciones institucionales que afectaron los tiempos previstos y limitaban la posibili",
+          "Situación y análisis. Durante esta implementación enfrenté condiciones reales del sistema escolar: interrupciones institucionales, cambios de sala que no se concretaron, ausencias y tiempos reducidos. Estas circunstancias evidenciaron la fragilidad de las planificaciones cuando s",
+          "Uno de los aprendizajes más relevantes fue reconocer el riesgo de sobrecargar la clase con recursos diversos. En mi intento de responder al DUA, utilicé más materiales de los necesarios, lo que terminó limitando la interacción y disminuyendo el tiempo destinado a la reflexión. La"
+        ],
+        "CE4": [],
+        "CE5": [
+          "El desarrollo de este portafolio me permitió comprender de manera más profunda la relación entre la teoría pedagógica, la planificación y la implementación real en el aula. Desde el inicio, la caracterización del curso de sexto básico un grupo pequeño de cuatro estudiantes con pe",
+          "En la planificación, los principios del marco conceptual no funcionaron como un mero referente teórico, sino como una guía concreta para la toma de decisiones. El aprendizaje significativo orientó la elección de actividades iniciales destinadas a activar conocimientos previos, en",
+          "Secuencia didáctica17"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV terminado.docx",
+      "ruta_relativa": "LESTER ALIAGA/Sección Prof. Lester Aliaga Práctica IV 2025/KRISHNA CHANTALL RIQUELME YÁÑEZ/Portafolio Docente PPIV terminado.docx",
+      "profesor_seccion": "LESTER ALIAGA",
+      "estudiante_detectado": "terminado",
+      "total_parrafos": 101,
+      "total_palabras": 3717,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Este portafolio presenta una secuencia didáctica de tres clases destinada a 5° básico en la asignatura de Lenguaje y Comunicación, centrada en el estudio del género poético y en la creación de poemas por parte de los estudiantes. El documento expone la planificación implementada, las actividades dis",
+      "extracto_reflexion": "La secuencia didáctica diseñada sobre el género lírico para 5° básico surgió inicialmente a partir de una necesidad detectada en el curso. Durante una actividad implementada por la docente de Lenguaje —un “cubo literario” con preguntas sobre el género lírico, los elementos de un poema, tipos de rima y figuras literarias— se evidenció que los estudiantes no recordaban contenidos previamente abordad",
+      "evidencias_competencias": {
+        "CG1": [
+          "Desde la didáctica de Lengua y Comunicación, esta experiencia reafirmó para mí la importancia de articular lectura, análisis y creación poética en un mismo proceso. Comprendí que la poesía no se enseña únicamente desde la identificación de elementos formales, sino desde una exper",
+          "Asimismo, confirmé que la reflexión docente es un componente indispensable de la mejora continua. Observar las respuestas de los estudiantes, analizar errores, revisar resultados del KPSI y evaluar la eficacia de cada recurso me permitió ajustar la práctica y proyectar nuevas acc",
+          "Esta experiencia también me permitió establecer una relación más directa entre mi práctica docente y el impacto en los aprendizajes de los estudiantes. El avance observado en la identificación de elementos del poema, en el uso del lenguaje figurado y en la producción poética evid"
+        ],
+        "CG2": [
+          "Desde la didáctica de Lengua y Comunicación, esta experiencia reafirmó para mí la importancia de articular lectura, análisis y creación poética en un mismo proceso. Comprendí que la poesía no se enseña únicamente desde la identificación de elementos formales, sino desde una exper",
+          "Finalmente la clase expositiva apoyada en recursos visuales, como la presentación en PowerPoint, facilitó una comprensión clara y secuenciada de los contenidos del género lírico; coherentemente, Cobos (2012) sostiene que la exposición oral organizada con apoyos digitales mejora l"
+        ],
+        "CG3": [],
+        "CE1": [
+          "En este sentido, los principios teóricos revisados en la Tarea 1 se vieron reflejados en el diseño de la secuencia. El enfoque constructivista se integró al considerar explícitamente los conocimientos previos de los estudiantes, en coherencia con Serrano González-Tejero y Pons Pa",
+          "Al proyectar la implementación, identifiqué desafíos como la diversidad de ritmos de aprendizaje, las variaciones en comprensión lectora y las dificultades que algunos estudiantes podrían presentar al crear rimas o utilizar comparaciones y personificaciones. La gestión del tiempo",
+          "La elaboración y puesta en práctica de esta secuencia didáctica centrada en el género lírico constituyó una experiencia formativa significativa, que me permitió analizar críticamente mi rol docente y comprender con mayor profundidad la complejidad del proceso de enseñanza y apren"
+        ],
+        "CE2": [
+          "Respecto a las decisiones didácticas, opté por comenzar cada clase con estrategias socioemocionales emocionómetro, saludos y expresión afectiva tal como sugiere Ibarrola (2023), para favorecer un clima positivo y propicio para el aprendizaje. Elegí trabajar con el poema “Caupolic",
+          "A nivel metodológico, el uso de TICs como Wordwall, PowerPoint y el proyector— permitió dinamizar las actividades y estimular la motivación. Esto coincide con Toribio (2019), quien sostiene que las tecnologías de la información “proporcionan diversos servicios que favorecen la tr",
+          "Asimismo, confirmé que la reflexión docente es un componente indispensable de la mejora continua. Observar las respuestas de los estudiantes, analizar errores, revisar resultados del KPSI y evaluar la eficacia de cada recurso me permitió ajustar la práctica y proyectar nuevas acc"
+        ],
+        "CE3": [
+          "Respecto a las decisiones didácticas, opté por comenzar cada clase con estrategias socioemocionales emocionómetro, saludos y expresión afectiva tal como sugiere Ibarrola (2023), para favorecer un clima positivo y propicio para el aprendizaje. Elegí trabajar con el poema “Caupolic",
+          "Al proyectar la implementación, identifiqué desafíos como la diversidad de ritmos de aprendizaje, las variaciones en comprensión lectora y las dificultades que algunos estudiantes podrían presentar al crear rimas o utilizar comparaciones y personificaciones. La gestión del tiempo",
+          "Esta experiencia también me permitió establecer una relación más directa entre mi práctica docente y el impacto en los aprendizajes de los estudiantes. El avance observado en la identificación de elementos del poema, en el uso del lenguaje figurado y en la producción poética evid"
+        ],
+        "CE4": [
+          "Esta experiencia también me permitió establecer una relación más directa entre mi práctica docente y el impacto en los aprendizajes de los estudiantes. El avance observado en la identificación de elementos del poema, en el uso del lenguaje figurado y en la producción poética evid"
+        ],
+        "CE5": [
+          "La secuencia didáctica diseñada sobre el género lírico para 5° básico surgió inicialmente a partir de una necesidad detectada en el curso. Durante una actividad implementada por la docente de Lenguaje —un “cubo literario” con preguntas sobre el género lírico, los elementos de un ",
+          "Respecto a las decisiones didácticas, opté por comenzar cada clase con estrategias socioemocionales emocionómetro, saludos y expresión afectiva tal como sugiere Ibarrola (2023), para favorecer un clima positivo y propicio para el aprendizaje. Elegí trabajar con el poema “Caupolic",
+          "Al proyectar la implementación, identifiqué desafíos como la diversidad de ritmos de aprendizaje, las variaciones en comprensión lectora y las dificultades que algunos estudiantes podrían presentar al crear rimas o utilizar comparaciones y personificaciones. La gestión del tiempo"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PP IV.docx",
+      "ruta_relativa": "LESTER ALIAGA/Sección Prof. Lester Aliaga Práctica IV 2025/MONTSERRAT ANAÍS LEIGTON FIGUEROA/Portafolio Docente PP IV.docx",
+      "profesor_seccion": "LESTER ALIAGA",
+      "estudiante_detectado": "PP IV",
+      "total_parrafos": 391,
+      "total_palabras": 8406,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "Este portafolio profesional reúne las experiencias, aprendizajes y procesos reflexivos desarrollados durante mi Práctica Pedagógica IV. Su propósito es evidenciar, de manera clara y fundamentada, la progresiva adquisición de competencias docentes, tanto en el ámbito del trabajo en aula como en las d",
+      "extracto_reflexion": "El diseño de la secuencia didáctica se sustentó principalmente en la teoría sociocultural de Lev Vygotsky y el constructivismo de Jean Piaget. Desde la teoría sociocultural, se entiende que el aprendizaje se construye a través de la interacción social y el lenguaje, siendo la mediación del docente un elemento clave dentro del proceso de enseñanza. Este principio se refleja directamente en las acti",
+      "evidencias_competencias": {
+        "CG1": [
+          "El diseño de la secuencia didáctica se sustentó principalmente en la teoría sociocultural de Lev Vygotsky y el constructivismo de Jean Piaget. Desde la teoría sociocultural, se entiende que el aprendizaje se construye a través de la interacción social y el lenguaje, siendo la med",
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo",
+          "El diseño de la secuencia didáctica se sustentó principalmente en la teoría sociocultural de Lev Vygotsky y el constructivismo de Jean Piaget. Desde la teoría sociocultural, se entiende que el aprendizaje se construye a través de la interacción social y el lenguaje, siendo la med"
+        ],
+        "CG2": [
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo",
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo",
+          "Mediante todo este proceso evidencie avances significativos en mi desempeño docente, especialmente en la seguridad al conducir actividades de lectura en grupos diversos, la claridad y manejo del tono de voz al modelar estrategias lectoras, la capacidad de diseñar actividades incl"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Sin embargo, uno de los principales desafíos fue trasladar los principios teóricos a la práctica real, especialmente en lo que respecta a la atención a la diversidad y la motivación de los estudiantes. Fue necesario recurrir al Diseño Universal de Aprendizaje (DUA) para ofrecer m",
+          "Las decisiones tomadas en el diseño responden directamente a la búsqueda de estrategias activas, inclusivas y motivadoras que permitieran alcanzar el OA propuesto. En la primera clase, la lectura guiada fue la estrategia central, ya que permite modelar la lectura fluida y acompañ",
+          "Se consideraron otras opciones más tradicionales, como lecturas individuales con evaluación sumativa, pero se descartaron por no promover la participación activa ni la retroalimentación entre pares, aspectos esenciales del enfoque constructivista y sociocultural."
+        ],
+        "CE2": [
+          "De forma sincera considero que hay varios aspectos del diseño que podrían mejorarse o profundizar. En primer lugar, me gustaría incorporar instrumentos de evaluación más diversos, como grabaciones de lectura o rúbricas con los estudiantes, para fomentar la autoevaluación y la met",
+          "De forma sincera considero que hay varios aspectos del diseño que podrían mejorarse o profundizar. En primer lugar, me gustaría incorporar instrumentos de evaluación más diversos, como grabaciones de lectura o rúbricas con los estudiantes, para fomentar la autoevaluación y la met",
+          "Mediante todo este proceso evidencie avances significativos en mi desempeño docente, especialmente en la seguridad al conducir actividades de lectura en grupos diversos, la claridad y manejo del tono de voz al modelar estrategias lectoras, la capacidad de diseñar actividades incl"
+        ],
+        "CE3": [
+          "Las decisiones tomadas en el diseño responden directamente a la búsqueda de estrategias activas, inclusivas y motivadoras que permitieran alcanzar el OA propuesto. En la primera clase, la lectura guiada fue la estrategia central, ya que permite modelar la lectura fluida y acompañ",
+          "Se consideraron otras opciones más tradicionales, como lecturas individuales con evaluación sumativa, pero se descartaron por no promover la participación activa ni la retroalimentación entre pares, aspectos esenciales del enfoque constructivista y sociocultural.",
+          "Otro posible desafío es el manejo del tiempo, ya que las actividades colaborativas suelen extenderse más de lo planificado. Para prevenirlo, se sugiere delimitar claramente los tiempos y usar recursos visuales o cronómetros para organizar los momentos de lectura y retroalimentaci"
+        ],
+        "CE4": [
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo",
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo",
+          "Mediante todo este proceso evidencie avances significativos en mi desempeño docente, especialmente en la seguridad al conducir actividades de lectura en grupos diversos, la claridad y manejo del tono de voz al modelar estrategias lectoras, la capacidad de diseñar actividades incl"
+        ],
+        "CE5": [
+          "El diseño de la secuencia didáctica se sustentó principalmente en la teoría sociocultural de Lev Vygotsky y el constructivismo de Jean Piaget. Desde la teoría sociocultural, se entiende que el aprendizaje se construye a través de la interacción social y el lenguaje, siendo la med",
+          "Durante la implementación de la secuencia didáctica podrían presentarse varios desafíos. Uno de los más relevantes es la diversidad en los niveles de lectura. Es probable que algunos estudiantes lean con mayor fluidez que otros, lo cual podría generar inseguridad en quienes prese",
+          "Desde la didáctica de Lenguaje y Comunicación, esta experiencia permitió comprender que leer en voz alta va más allá de pronunciar palabras correctamente. Se trata de una práctica integral que involucra la comprensión del texto, la entonación, la expresión y la interacción con lo"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente Práctica IV, María Jesús Celis .docx",
+      "ruta_relativa": "LESTER ALIAGA/Sección Prof. Lester Aliaga Práctica IV 2025/MARÍA JESÙS CELIS RAIN/Portafolio Docente Práctica IV, María Jesús Celis .docx",
+      "profesor_seccion": "LESTER ALIAGA",
+      "estudiante_detectado": "Práctica IV, María Jesús Celis",
+      "total_parrafos": 102,
+      "total_palabras": 4314,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "reflexion_docente",
+        "bibliografia",
+        "anexos"
+      ],
+      "extracto_resumen": "El presente portafolio profesional tiene como propósito evidenciar el desarrollo de competencias pedagógicas, disciplinarias, reflexivas e inclusivas adquiridas durante mi práctica docente en la Escuela F-500 Huertos Familiares. Este documento funciona como un instrumento de evaluación integral que ",
+      "extracto_reflexion": "La secuencia didáctica diseñada en torno al OA 5: Describir cómo se conformó el territorio de Chile durante el siglo XIX, buscó que los estudiantes comprendieran este proceso desde una mirada histórica, crítica y significativa, integrando estrategias inclusivas y cooperativas coherentes con las necesidades del curso. A lo largo del diseño y la fundamentación, se procuró articular la teoría abordad",
+      "evidencias_competencias": {
+        "CG1": [
+          "Los principios teóricos presentados en la Tarea 1 se reflejaron directamente en la secuencia. El enfoque constructivista, sustentado en autores como Piaget y Vygotsky, guió la planificación al considerar que el aprendizaje histórico se construye a partir de los conocimientos prev",
+          "Para cada clase se consideraron alternativas metodológicas que finalmente fueron descartadas. Por ejemplo, se pensó inicialmente incluir análisis de textos históricos más largos, pero se optó por no hacerlo debido a que podrían generar frustración o desconexión en algunos estudia",
+          "Finalmente, esta experiencia me permitió consolidar una visión más profunda y crítica sobre mi formación como profesora. Comprendí que una práctica pedagógica efectiva dialoga constantemente entre teoría y acción, requiere flexibilidad, compromiso afectivo, reflexión continua y u"
+        ],
+        "CG2": [
+          "Las decisiones didácticas se centraron en fomentar el aprendizaje cooperativo y la participación activa. En la primera clase, la actividad “Verdadero o falso en acción” buscó integrar movimiento, juego y pensamiento histórico, respondiendo a la necesidad de canalizar la energía d"
+        ],
+        "CG3": [],
+        "CE1": [
+          "La secuencia didáctica diseñada en torno al OA 5: Describir cómo se conformó el territorio de Chile durante el siglo XIX, buscó que los estudiantes comprendieran este proceso desde una mirada histórica, crítica y significativa, integrando estrategias inclusivas y cooperativas coh",
+          "Asimismo, los principios del Diseño Universal de Aprendizaje (DUA) se tradujeron en decisiones concretas, como ofrecer diversas formas de representación (videos, mapas, imágenes), participación (juegos, trabajo grupal) y expresión (oral, escrita, visual), garantizando accesibilid",
+          "Las decisiones didácticas se centraron en fomentar el aprendizaje cooperativo y la participación activa. En la primera clase, la actividad “Verdadero o falso en acción” buscó integrar movimiento, juego y pensamiento histórico, respondiendo a la necesidad de canalizar la energía d"
+        ],
+        "CE2": [],
+        "CE3": [
+          "Los principios teóricos presentados en la Tarea 1 se reflejaron directamente en la secuencia. El enfoque constructivista, sustentado en autores como Piaget y Vygotsky, guió la planificación al considerar que el aprendizaje histórico se construye a partir de los conocimientos prev",
+          "La implementación de la secuencia permitió observar evidencias claras de aprendizaje. Los estudiantes lograron identificar los procesos territoriales de Chile en el siglo XIX, explicaron oralmente causas y consecuencias, y demostraron comprensión mediante producciones visuales co",
+          "La experiencia también dejó aprendizajes respecto al rol del docente en la enseñanza disciplinar. Comprendí que el diseño de actividades debe considerar tanto la estructura conceptual de la Historia como las particularidades del curso: la importancia del diálogo, del pensamiento "
+        ],
+        "CE4": [
+          "El análisis crítico del proceso confirmó que el uso de estrategias activas e interdisciplinarias —como el trabajo cooperativo, la representación visual, los juegos pedagógicos y el análisis de fuentes— fortaleció la comprensión de los procesos territoriales del siglo XIX, aun cua"
+        ],
+        "CE5": [
+          "La secuencia didáctica diseñada en torno al OA 5: Describir cómo se conformó el territorio de Chile durante el siglo XIX, buscó que los estudiantes comprendieran este proceso desde una mirada histórica, crítica y significativa, integrando estrategias inclusivas y cooperativas coh",
+          "Las decisiones didácticas se centraron en fomentar el aprendizaje cooperativo y la participación activa. En la primera clase, la actividad “Verdadero o falso en acción” buscó integrar movimiento, juego y pensamiento histórico, respondiendo a la necesidad de canalizar la energía d",
+          "Desde la didáctica de la Historia, esta experiencia permitió comprender que el aprendizaje histórico no se reduce a memorizar hechos, sino que implica desarrollar habilidades de análisis, empatía temporal y pensamiento crítico. La disciplina demanda que los estudiantes establezca"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV (2).docx",
+      "ruta_relativa": "LESTER ALIAGA/Sección Prof. Lester Aliaga Práctica IV 2025/KARLA AYLINE LAGOS YAÑEZ/Portafolio Docente PPIV (2).docx",
+      "profesor_seccion": "LESTER ALIAGA",
+      "estudiante_detectado": "(2)",
+      "total_parrafos": 100,
+      "total_palabras": 4135,
+      "secciones_detectadas": [
+        "portada",
+        "diagnostico",
+        "secuencia_didactica",
+        "conclusiones",
+        "resumen",
+        "abstract",
+        "introduccion",
+        "anexos",
+        "reflexion_docente",
+        "bibliografia"
+      ],
+      "extracto_resumen": "El presente portafolio docente tiene como propósito constituirse en un instrumento de evaluación integral que permita evidenciar las diversas dimensiones del quehacer profesional desarrolladas durante mi práctica en el Colegio Porvenir School de Chiguayante. A través de este documento se busca refle",
+      "extracto_reflexion": "Al analizar la secuencia didáctica que implementé en los cursos 8°A y 8°B, pude ver cómo los principios teóricos que guiaron mi planificación se reflejaron en mi práctica, aunque en algunos momentos fue más difícil aplicarlos. Las ideas de Vygotsky, especialmente sobre la importancia de que el docente acompañe el aprendizaje, se hicieron presentes cuando expliqué paso a paso lo que debíamos hacer ",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [
+          "Respecto a las evidencias de aprendizaje, pude observar avances concretos durante la secuencia. Al inicio, muchos estudiantes tenían dificultades para identificar características del género dramático; sin embargo, hacia la segunda semana, cerca del 40% pudo reconocer elementos pr",
+          "La retroalimentación de mi docente colaboradora fue clave para mejorar aspectos de mi práctica. Sus observaciones me ayudaron a reforzar la claridad en las instrucciones, utilizar un lenguaje más simple al explicar conceptos y mantener siempre visibles los objetivos de la clase. ",
+          "Esta experiencia me dejó aprendizajes clave sobre mi rol docente. Entendí que enseñar requiere flexibilidad, claridad y capacidad para ajustar las estrategias según la respuesta del curso. Aprendí que los recursos visuales, la lectura en voz alta y las tareas simples pero estruct"
+        ],
+        "CG3": [],
+        "CE1": [
+          "Durante la implementación también surgieron dificultades que ya había anticipado en la planificación, como la falta de tiempo para completar todas las actividades, la gran diversidad de ritmos de trabajo y la atención fluctuante de los estudiantes. Ante esto, ajusté algunas activ",
+          "En síntesis, esta reflexión me permitió reconocer avances y desafíos tanto pedagógicos como disciplinares. La experiencia me confirma que la docencia es un proceso en constante construcción, que exige reflexión permanente, sensibilidad frente a la diversidad y un compromiso profu",
+          "Sin embargo, también identificó aspectos que debo mejorar. El manejo del tiempo, la atención a la diversidad y la formulación de preguntas más profundas son áreas que requieren más trabajo de mi parte. Además, comprendí que debo fortalecer estrategias de lectura, retroalimentació"
+        ],
+        "CE2": [
+          "En lo personal, esta secuencia tuvo un impacto importante en mi desarrollo como futura docente. Me hizo ver que la enseñanza requiere flexibilidad, observación constante y la capacidad de ajustar lo planificado sin perder de vista los objetivos. También me reafirmó que, en contex"
+        ],
+        "CE3": [
+          "Respecto a las evidencias de aprendizaje, pude observar avances concretos durante la secuencia. Al inicio, muchos estudiantes tenían dificultades para identificar características del género dramático; sin embargo, hacia la segunda semana, cerca del 40% pudo reconocer elementos pr",
+          "La retroalimentación de mi docente colaboradora fue clave para mejorar aspectos de mi práctica. Sus observaciones me ayudaron a reforzar la claridad en las instrucciones, utilizar un lenguaje más simple al explicar conceptos y mantener siempre visibles los objetivos de la clase. ",
+          "Durante mi práctica profesional en 8°A y 8°B, enfrenté una situación central que marcó todo mi proceso: las dificultades de comprensión lectora y participación que mostraban muchos estudiantes, especialmente al trabajar el género dramático y la comedia. A partir de los diagnóstic"
+        ],
+        "CE4": [],
+        "CE5": [
+          "Al analizar la secuencia didáctica que implementé en los cursos 8°A y 8°B, pude ver cómo los principios teóricos que guiaron mi planificación se reflejaron en mi práctica, aunque en algunos momentos fue más difícil aplicarlos. Las ideas de Vygotsky, especialmente sobre la importa",
+          "Las decisiones didácticas que tomé siempre buscaron generar un ambiente adecuado para el aprendizaje, tal como lo plantea el Marco para la Buena Enseñanza. Elegí actividades de inicio breves para activar conocimientos previos, porque en mi diagnóstico inicial observé que a los es",
+          "Esta experiencia me dejó aprendizajes importantes sobre la didáctica del Lenguaje. Entendí que la lectura en voz alta y las explicaciones guiadas son fundamentales, especialmente con cursos que presentan dificultades lectoras. También aprendí que trabajar un género literario como"
+        ]
+      }
+    },
+    {
+      "archivo": "Portafolio Docente PPIV Daniela Vega_Drive.docx",
+      "ruta_relativa": "LESTER ALIAGA/Sección Prof. Lester Aliaga Práctica IV 2025/DANIELA GERALDINE VEGA LEIVA/Portafolio Docente PPIV Daniela Vega_Drive.docx",
+      "profesor_seccion": "LESTER ALIAGA",
+      "estudiante_detectado": "Daniela Vega_Drive",
+      "total_parrafos": 12,
+      "total_palabras": 44,
+      "secciones_detectadas": [
+        "portada"
+      ],
+      "extracto_resumen": "",
+      "extracto_reflexion": "",
+      "evidencias_competencias": {
+        "CG1": [],
+        "CG2": [],
+        "CG3": [],
+        "CE1": [],
+        "CE2": [],
+        "CE3": [],
+        "CE4": [],
+        "CE5": []
+      }
+    },
+    {
+      "id": "interv-detectives-financieros",
+      "autor": "Prof. Antonio Meneses / Practicante PPIV",
+      "titulo": "Detectives Financieros",
+      "mencion": "MMYCN",
+      "curso": "5° Básico (4°-8°)",
+      "total_turnos": 276,
+      "total_episodios": 15,
+      "competencias_logradas": 2
+    }
+  ]
+}

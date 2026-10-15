@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: observa-retro-edbasica
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm test
+    startCommand: node --experimental-sqlite server/index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22.12.0
+      - key: PORT
+        value: 10000

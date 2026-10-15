@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+.npm/
+*.log
+.system_generated/
+bin/cloudflared
+observa_retro_peb.db-shm
+observa_retro_peb.db-wal
+PRACTICA IV/
+Ejemplo de entrenamiento/
