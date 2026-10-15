@@ -48,6 +48,19 @@ const MIME_STATIC = {
   '.woff2': 'font/woff2'
 };
 
+function resolveStoragePath(storedPath) {
+  if (!storedPath) return null;
+  if (existsSync(storedPath)) return storedPath;
+  const relativeMatch = storedPath.match(/uploads\/(.+)$/);
+  if (relativeMatch) {
+    const candidate = join(rootDir, 'uploads', relativeMatch[1]);
+    if (existsSync(candidate)) return candidate;
+  }
+  const candidate = join(rootDir, storedPath);
+  if (existsSync(candidate)) return candidate;
+  return storedPath;
+}
+
 function sendJson(res, statusCode, data) {
   res.writeHead(statusCode, {
     'Content-Type': 'application/json; charset=utf-8',
@@ -483,12 +496,13 @@ const server = createServer(async (req, res) => {
   if (streamMatch && method === 'GET') {
     const id = streamMatch[1];
     const grab = db.prepare('SELECT * FROM grabaciones WHERE intervencion_id = ?').get(id);
-    if (!grab || !existsSync(grab.filepath)) {
+    const audioPath = resolveStoragePath(grab?.filepath);
+    if (!grab || !audioPath || !existsSync(audioPath)) {
       res.writeHead(404, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: 'Grabación no encontrada' }));
       return;
     }
-    return streamMediaFile(grab.filepath, req, res);
+    return streamMediaFile(audioPath, req, res);
   }
 
   // ============================================================
